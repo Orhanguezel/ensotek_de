@@ -1,0 +1,59 @@
+{
+  "title": "Ensotek DE",
+  "slug": "ensotek-de",
+  "summary": "B2B cooling tower platform for the German market — catalog management, customer document flows and multilingual content (TR/EN/DE) on a Fastify + Next.js stack.",
+  "category": "B2B PLATFORM",
+  "services": [
+    "Frontend Development",
+    "Backend Development",
+    "Architecture & Optimization",
+    "DevOps & Deployment"
+  ],
+  "techs": [
+    "Next.js",
+    "React",
+    "TypeScript",
+    "Fastify",
+    "Drizzle ORM",
+    "MySQL",
+    "Bun",
+    "Zod",
+    "next-intl",
+    "Tailwind CSS",
+    "React Query",
+    "Redux Toolkit",
+    "Cloudinary",
+    "JWT",
+    "Swagger",
+    "Docker",
+    "Nginx",
+    "CI/CD"
+  ],
+  "features": [
+    "Admin panel",
+    "Catalog management",
+    "Customer document handling",
+    "Multi-language (TR/EN/DE)",
+    "Swagger API docs"
+  ],
+  "designHighlights": [
+    "Shared backend/UI packages via workspace",
+    "Locale-aware content flows",
+    "Production deployed at ensotek.de"
+  ],
+  "featured": true,
+  "displayOrder": 2,
+  "clientName": "Own Project",
+  "status": "live",
+  "startDate": "2025-01-01",
+  "completeDate": null,
+  "completionTimeLabel": "Ongoing",
+  "repoUrl": "https://github.com/Orhanguezel/ensotek_de",
+  "websiteUrl": "https://www.ensotek.de",
+  "demoUrl": "https://www.ensotek.de",
+  "featuredImage": "/assets/imgs/work/projects/ensotek.png",
+  "featuredImageAlt": "Ensotek DE B2B Platform",
+  "resumeTitle": "Ensotek DE",
+  "resumeSubtitle": "B2B Cooling Tower Platform",
+  "excludeFromPortfolio": false
+}
