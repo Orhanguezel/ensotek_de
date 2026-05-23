@@ -7,7 +7,7 @@ module.exports = {
   apps: [
     {
       name: 'ensotek-backend',
-      cwd: '/var/www/Ensotek/backend',
+      cwd: '/var/www/Ensotek/ensotek_de/backend',
       script: '/usr/local/bin/bun',
       args: 'dist/index.js',
       exec_mode: 'fork',

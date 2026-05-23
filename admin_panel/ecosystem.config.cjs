@@ -7,7 +7,7 @@ module.exports = {
   apps: [
     {
       name: 'ensotek-admin-panel',
-      cwd: '/var/www/Ensotek/admin_panel',
+      cwd: '/var/www/Ensotek/ensotek_de/admin_panel',
       script: '/usr/local/bin/bun',
       args: 'run start -- -p 3022 -H 127.0.0.1',
       exec_mode: 'fork',

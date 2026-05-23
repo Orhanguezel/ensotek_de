@@ -7,7 +7,7 @@ module.exports = {
   apps: [
     {
       name: 'ensotek-frontend',
-      cwd: '/var/www/Ensotek/de_frontend',
+      cwd: '/var/www/Ensotek/ensotek_de/frontend',
       script: '/usr/local/bin/bun',
       args: 'run start -- -p 3011 -H 127.0.0.1',
       exec_mode: 'fork',
