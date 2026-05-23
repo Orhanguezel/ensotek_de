@@ -7,7 +7,7 @@ const nextConfig = {
 
   // Workspace root — bun hoisting nedeniyle next paketi üst dizinde çözümlenir
   turbopack: {
-    root: path.resolve(import.meta.dirname, '..'),
+    root: path.resolve(import.meta.dirname, '../..'),
   },
 
   // ✅ Image optimization config

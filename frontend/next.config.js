@@ -12,9 +12,9 @@ const nextConfig = {
   reactStrictMode: true,
   output: 'standalone',
 
-  // Workspace root — bun hoisting nedeniyle paketler üst dizinde çözümlenir
+  // Workspace kökü (Ensotek/) — bun paketleri buraya hoist eder, Turbopack buradan çözer
   turbopack: {
-    root: path.resolve(__dirname, '..'),
+    root: path.resolve(__dirname, '../..'),
   },
 
   // Image optimization
