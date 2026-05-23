@@ -10,8 +10,14 @@ type BackendLocale = {
   is_active?: boolean;
 };
 
+// SSR (Node) tarafında public URL'e gitmek DNS + TLS + nginx round trip ve
+// build sırasında yüzlerce paralel istekte timeout'a yol açıyor. Bu yüzden
+// server tarafında INTERNAL_API_URL (localhost backend) tercih edilir.
+// Browser her zaman public URL'e gider.
 export const API_BASE_URL_RAW =
-  process.env.NEXT_PUBLIC_API_URL || "http://127.0.0.1:8086/api";
+  (typeof window === "undefined"
+    ? process.env.INTERNAL_API_URL || process.env.NEXT_PUBLIC_API_URL
+    : process.env.NEXT_PUBLIC_API_URL) || "http://127.0.0.1:8086/api";
 export const API_BASE_URL = API_BASE_URL_RAW.endsWith("/api")
   ? API_BASE_URL_RAW
   : `${API_BASE_URL_RAW}/api`;
