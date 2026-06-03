@@ -16,6 +16,9 @@ interface Props {
   items: CertItem[];
 }
 
+// NOT: Bu component bilinçli olarak inline style kullanır. Proje Tailwind'i
+// minimal kapsamda derler; grid/aspect/fixed gibi utility'ler her zaman
+// üretilmediği için galeri stilleri inline verilerek garantilenir.
 export function CertificateGallery({ items }: Props) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
 
@@ -41,122 +44,150 @@ export function CertificateGallery({ items }: Props) {
     return () => window.removeEventListener('keydown', handler);
   }, [activeIndex, prev, next]);
 
-  // Prevent body scroll when lightbox open
   useEffect(() => {
     document.body.style.overflow = activeIndex !== null ? 'hidden' : '';
     return () => { document.body.style.overflow = ''; };
   }, [activeIndex]);
 
+  const active = activeIndex !== null ? items[activeIndex] : null;
+
   return (
     <>
       {/* Thumbnail grid */}
-      <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fill, minmax(150px, 1fr))',
+          gap: '16px',
+        }}
+      >
         {items.map((item, i) => (
           <button
             key={i}
             type="button"
             onClick={() => open(i)}
-            className="group relative bg-white border border-slate-200 rounded-xl overflow-hidden aspect-3/4 hover:border-amber-300 hover:shadow-md transition-all cursor-zoom-in focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-400"
-            aria-label={`Zertifikat vergrößern: ${item.alt}`}
+            aria-label={`${item.alt} — büyüt`}
+            style={{
+              position: 'relative',
+              aspectRatio: '3 / 4',
+              width: '100%',
+              background: '#fff',
+              border: '1px solid #e2e8f0',
+              borderRadius: '12px',
+              overflow: 'hidden',
+              cursor: 'zoom-in',
+              padding: 0,
+              boxShadow: '0 2px 8px rgba(0,0,0,0.06)',
+            }}
           >
             <Image
               src={resolveMediaUrl(item.src)}
               alt={item.alt}
               fill
               sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 200px"
-              className="object-contain p-2 group-hover:scale-105 transition-transform duration-300"
+              style={{ objectFit: 'contain', padding: '8px' }}
             />
           </button>
         ))}
       </div>
 
       {/* Lightbox */}
-      {activeIndex !== null && (
+      {active && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm"
           onClick={close}
+          style={{
+            position: 'fixed',
+            inset: 0,
+            zIndex: 9999,
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            background: 'rgba(0,0,0,0.85)',
+            padding: '16px',
+          }}
         >
-          {/* Modal content — stop propagation so clicking image doesn't close */}
           <div
-            className="relative max-w-3xl w-full mx-4 bg-white rounded-2xl overflow-hidden shadow-2xl"
             onClick={(e) => e.stopPropagation()}
+            style={{
+              position: 'relative',
+              maxWidth: '820px',
+              width: '100%',
+              background: '#fff',
+              borderRadius: '16px',
+              overflow: 'hidden',
+              boxShadow: '0 20px 60px rgba(0,0,0,0.4)',
+            }}
           >
-            {/* Close */}
             <button
               type="button"
               onClick={close}
-              className="absolute top-3 right-3 z-10 w-9 h-9 flex items-center justify-center rounded-full bg-black/20 text-white hover:bg-black/40 transition-colors"
-              aria-label="Schließen"
+              aria-label="Kapat"
+              style={{
+                position: 'absolute', top: '12px', right: '12px', zIndex: 10,
+                width: '38px', height: '38px', display: 'flex', alignItems: 'center',
+                justifyContent: 'center', borderRadius: '50%', border: 'none',
+                background: 'rgba(0,0,0,0.45)', color: '#fff', cursor: 'pointer',
+              }}
             >
               <X size={18} />
             </button>
 
-            {/* Image */}
-            <div className="relative bg-slate-50 flex items-center justify-center min-h-64 max-h-[75vh]" style={{ minHeight: '256px', maxHeight: '75vh' }}>
-              {items[activeIndex] && (
-                <Image
-                  src={resolveMediaUrl(items[activeIndex].src)}
-                  alt={items[activeIndex].alt}
-                  width={800}
-                  height={600}
-                  sizes="(max-width: 768px) 100vw, 800px"
-                  className="max-w-full max-h-[75vh] object-contain p-4"
-                  style={{ width: 'auto', height: 'auto' }}
-                />
-              )}
+            <div
+              style={{
+                position: 'relative', background: '#f8fafc', display: 'flex',
+                alignItems: 'center', justifyContent: 'center',
+                minHeight: '300px', maxHeight: '78vh',
+              }}
+            >
+              <Image
+                src={resolveMediaUrl(active.src)}
+                alt={active.alt}
+                width={800}
+                height={1000}
+                sizes="(max-width: 768px) 100vw, 800px"
+                style={{
+                  width: 'auto', height: 'auto', maxWidth: '100%',
+                  maxHeight: '78vh', objectFit: 'contain', padding: '16px',
+                }}
+              />
             </div>
 
-            {/* Caption */}
-            {items[activeIndex] && (items[activeIndex].title || items[activeIndex].summary) && (
-              <div className="px-6 py-4 border-t border-slate-100">
-                {items[activeIndex].title && (
-                  <p className="font-semibold text-slate-800 text-sm">
-                    {items[activeIndex].title}
-                  </p>
+            {(active.title || active.summary) && (
+              <div style={{ padding: '14px 24px', borderTop: '1px solid #f1f5f9' }}>
+                {active.title && (
+                  <p style={{ fontWeight: 600, color: '#1e293b', fontSize: '14px', margin: 0 }}>{active.title}</p>
                 )}
-                {items[activeIndex].summary && (
-                  <p className="mt-0.5 text-xs text-slate-500">{items[activeIndex].summary}</p>
+                {active.summary && (
+                  <p style={{ color: '#64748b', fontSize: '12px', margin: '2px 0 0' }}>{active.summary}</p>
                 )}
               </div>
             )}
 
-            {/* Prev / Next */}
             {items.length > 1 && (
               <>
                 <button
-                  type="button"
-                  onClick={prev}
-                  className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center rounded-full bg-black/20 text-white hover:bg-black/40 transition-colors"
-                  aria-label="Vorheriges Zertifikat"
+                  type="button" onClick={prev} aria-label="Önceki"
+                  style={{
+                    position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)',
+                    width: '40px', height: '40px', display: 'flex', alignItems: 'center',
+                    justifyContent: 'center', borderRadius: '50%', border: 'none',
+                    background: 'rgba(0,0,0,0.45)', color: '#fff', cursor: 'pointer',
+                  }}
                 >
-                  <ChevronLeft size={18} />
+                  <ChevronLeft size={20} />
                 </button>
                 <button
-                  type="button"
-                  onClick={next}
-                  className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center rounded-full bg-black/20 text-white hover:bg-black/40 transition-colors"
-                  aria-label="Nächstes Zertifikat"
+                  type="button" onClick={next} aria-label="Sonraki"
+                  style={{
+                    position: 'absolute', right: '12px', top: '50%', transform: 'translateY(-50%)',
+                    width: '40px', height: '40px', display: 'flex', alignItems: 'center',
+                    justifyContent: 'center', borderRadius: '50%', border: 'none',
+                    background: 'rgba(0,0,0,0.45)', color: '#fff', cursor: 'pointer',
+                  }}
                 >
-                  <ChevronRight size={18} />
+                  <ChevronRight size={20} />
                 </button>
               </>
-            )}
-
-            {/* Dot indicators */}
-            {items.length > 1 && (
-              <div className="flex justify-center gap-1.5 py-3 bg-white">
-                {items.map((_, i) => (
-                  <button
-                    key={i}
-                    type="button"
-                    onClick={() => setActiveIndex(i)}
-                    className={`w-2 h-2 rounded-full transition-all ${
-                      i === activeIndex ? 'bg-amber-500 w-4' : 'bg-slate-300 hover:bg-slate-400'
-                    }`}
-                    aria-label={`Zertifikat ${i + 1}`}
-                  />
-                ))}
-              </div>
             )}
           </div>
         </div>
