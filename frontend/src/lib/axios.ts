@@ -4,9 +4,15 @@
 
 import axios, { AxiosError, InternalAxiosRequestConfig } from 'axios';
 
-// If env variable is set, use it. Otherwise fallback.
-// Note: If NEXT_PUBLIC_API_URL includes /api, we should use it directly or handle it.
-const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8086/api';
+// Server (SSR) tarafında INTERNAL_API_URL (mutlak localhost backend) tercih
+// edilir; tarayıcıda NEXT_PUBLIC_API_URL (nginx /api proxy) kullanılır.
+// Relative bir NEXT_PUBLIC_API_URL (örn. "/api") sunucu tarafında geçersizdir
+// ("Invalid URL"/NETWORK_ERROR) — bu yüzden SSR mutlaka mutlak URL kullanmalı.
+// (i18n/locale-settings.ts ile aynı çözümleme mantığı.)
+const API_BASE_URL =
+  (typeof window === 'undefined'
+    ? process.env.INTERNAL_API_URL || process.env.NEXT_PUBLIC_API_URL
+    : process.env.NEXT_PUBLIC_API_URL) || 'http://127.0.0.1:8086/api';
 
 export const api = axios.create({
   baseURL: API_BASE_URL,
