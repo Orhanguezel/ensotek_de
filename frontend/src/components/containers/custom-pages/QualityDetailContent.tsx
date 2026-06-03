@@ -6,6 +6,7 @@ import SocialShare from "./SocialShare";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/routing";
 import { resolveMediaUrl } from "@/lib/media";
+import { CertificateGallery } from "@/components/sections/CertificateGallery";
 
 interface QualityDetailContentProps {
   items: CustomPage[];
@@ -22,18 +23,28 @@ const QualityDetailContent = ({ items, ui }: QualityDetailContentProps) => {
   // Resolve featured image URL
   const featuredImageUrl = resolveMediaUrl(mainPage?.image_url);
   
-  // Gallery images handling
+  // Gallery images handling — keep RAW paths; CertificateGallery resolves internally.
   const galleryImages = mainPage?.images || [];
-  
-  // Logic: In our system, the first image in the 'images' array is often the same as the 'featured_image'.
-  // However, we should be careful not to hide valid certificates.
-  // We'll show all images unless they exactly match the featured image after resolution.
-  const certificates = galleryImages.map(img => resolveMediaUrl(img)).filter(url => url && url !== featuredImageUrl);
-  
-  // If after filtering we have no certificates but we have gallery images, 
-  // and the featured image is NOT a certificate, maybe we shouldn't have filtered.
-  // But usually, it's safer to just show everything if filtering leaves us empty.
-  const displayCertificates = certificates.length > 0 ? certificates : (galleryImages.length > 1 ? galleryImages.slice(1).map(img => resolveMediaUrl(img)) : []);
+
+  // Exclude the featured image from the certificate gallery (compared after resolution),
+  // but keep the raw src so CertificateGallery doesn't double-resolve the URL.
+  const certificateImages = galleryImages.filter((img) => {
+    const resolved = resolveMediaUrl(img);
+    return resolved && resolved !== featuredImageUrl;
+  });
+  const rawCertificates =
+    certificateImages.length > 0
+      ? certificateImages
+      : galleryImages.length > 1
+        ? galleryImages.slice(1)
+        : [];
+
+  const certLabel = ui?.ui_quality_certificate_label || "Certificate";
+  const certItems = rawCertificates.map((img, idx) => ({
+    src: img,
+    alt: `${certLabel} ${idx + 1}`,
+    title: `${certLabel} ${idx + 1}`,
+  }));
 
   return (
     <section className="technical__area pt-80 pb-120">
@@ -115,52 +126,11 @@ const QualityDetailContent = ({ items, ui }: QualityDetailContentProps) => {
                   )}
                 </div>
 
-                <div className="row">
-                  {displayCertificates.length > 0 ? (
-                    displayCertificates.map((imgUrl: string, idx: number) => (
-                      <div key={idx} className="col-md-4 col-sm-6 mb-30">
-                        <div className="certificate-card p-3 bg-white text-center" style={{ 
-                          borderRadius: '12px', 
-                          boxShadow: '0 5px 20px rgba(0,0,0,0.05)',
-                          height: '100%',
-                          display: 'flex',
-                          flexDirection: 'column',
-                          justifyContent: 'space-between'
-                        }}>
-                          <div className="cert-img-wrapper mb-20" style={{ cursor: 'pointer' }} onClick={() => window.open(imgUrl, '_blank')}>
-                              <Image
-                              src={resolveMediaUrl(imgUrl)}
-                              alt={`${ui?.ui_quality_certificate_label || 'Certificate'} ${idx+1}`}
-                              width={600}
-                              height={420}
-                              sizes="(max-width: 768px) 100vw, (max-width: 1200px) 33vw, 400px"
-                              style={{
-                                borderRadius: '8px',
-                                objectFit: 'contain',
-                                width: '100%',
-                                height: 'auto',
-                                maxHeight: '420px',
-                                display: 'block'
-                              }}
-                            />
-                          </div>
-                          <div className="cert-info">
-                            <h4 style={{ fontSize: '16px', fontWeight: '600', marginBottom: '10px' }}>
-                              {ui?.ui_quality_certificate_label || "Certificate"} {idx + 1}
-                            </h4>
-                            <a href={imgUrl} target="_blank" className="tp-btn TP-btn-sm w-100 text-center" rel="nofollow noreferrer" style={{ padding: '8px', fontSize: '14px' }}>
-                              {ui?.ui_quality_certificate_open || "Open"}
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    ))
-                  ) : (
-                    <div className="col-12">
-                      <p className="text-muted">{ui?.ui_quality_no_certificates || "No certificate images found."}</p>
-                    </div>
-                  )}
-                </div>
+                {certItems.length > 0 ? (
+                  <CertificateGallery items={certItems} />
+                ) : (
+                  <p className="text-muted">{ui?.ui_quality_no_certificates || "No certificate images found."}</p>
+                )}
               </div>
             </div>
           </div>
