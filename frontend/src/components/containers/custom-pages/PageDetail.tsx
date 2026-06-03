@@ -69,12 +69,15 @@ const PageDetail = ({ item }: PageDetailProps) => {
     .filter((x: any) => x.id !== item.id)
     .slice(0, 5);
 
+  // İçerik DB'de {"html": "..."} JSON formatında olabilir. parsed.html
+  // boş string ("") olduğunda truthy kontrolü ham JSON'u ekrana basıyordu;
+  // typeof string kontrolü boş içeriği de doğru (boş) çözer.
   let htmlContent = item.content;
   try {
     const parsed = JSON.parse(item.content);
-    if (parsed.html) htmlContent = parsed.html;
+    if (parsed && typeof parsed.html === 'string') htmlContent = parsed.html;
   } catch (e) {
-    // Not JSON
+    // Not JSON — düz HTML/metin
   }
 
   const cleanHtml = cleanContentHtml(htmlContent);

@@ -31,7 +31,9 @@ const MissionVisionContent = ({ mission, vision, title }: MissionVisionContentPr
     let htmlContent = item.content;
     try {
       const parsed = JSON.parse(item.content);
-      if (parsed.html) htmlContent = parsed.html;
+      // parsed.html boş string ("") olduğunda truthy kontrolü ham JSON'u
+      // basıyordu; typeof string kontrolü boş içeriği de doğru çözer.
+      if (parsed && typeof parsed.html === 'string') htmlContent = parsed.html;
     } catch (e) {
       // Not JSON
     }
