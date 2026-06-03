@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
+import { notFound } from 'next/navigation';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ChevronRight, ExternalLink, ArrowLeft, Calendar, Building, MapPin, CheckCircle2 } from 'lucide-react';
@@ -38,24 +39,7 @@ export default async function ProjectDetailPage({ params }: Props) {
   const raw = await getProjectBySlug(API_BASE_URL, slug, locale).catch(() => null);
   const proj = (raw as { data?: Project } | null)?.data ?? (raw as Project | null);
 
-  if (!proj) {
-    return (
-      <main>
-        <div className="min-h-[60vh] flex items-center justify-center">
-          <div className="text-center">
-            <p className="text-slate-400 text-lg mb-6">{t('noResults')}</p>
-            <Link
-              href={`/${locale}/projects`}
-              className="inline-flex items-center gap-2 text-blue-600 hover:underline font-medium"
-            >
-              <ArrowLeft size={16} />
-              {t('backToProjects')}
-            </Link>
-          </div>
-        </div>
-      </main>
-    );
-  }
+  if (!proj) notFound();
 
   /* Gallery from `gallery` field */
   const galleryImages = (proj.gallery ?? [])

@@ -1,5 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Layout from "@/components/layout/Layout";
 import Banner from "@/components/layout/banner/Banner";
 import LibraryDetail from "@/components/containers/library/LibraryDetail";
@@ -25,6 +26,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const LibraryDetailPage = async ({ params }: Props) => {
   const { locale, slug } = await params;
+  const item = await fetchLibraryBySlug(slug, locale ?? "tr");
+  if (!item) notFound();
   const t = await getTranslations({ locale, namespace: "ensotek.library" });
 
   return (

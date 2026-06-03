@@ -1,5 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Layout from "@/components/layout/Layout";
 import PageSwitch from "@/components/containers/custom-pages/PageSwitch";
 import { fetchCustomPage } from "@/i18n/server";
@@ -22,7 +23,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const NewsDetailPage = async ({ params }: Props) => {
-  const { slug } = await params;
+  const { slug, locale } = await params;
+  const item = await fetchCustomPage(slug, locale ?? "tr");
+  if (!item) notFound();
   return (
     <Layout header={1} footer={1}>
       <PageSwitch slug={slug} />

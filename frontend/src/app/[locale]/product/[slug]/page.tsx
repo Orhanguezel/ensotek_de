@@ -1,5 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
+import { notFound } from "next/navigation";
 import Layout from "@/components/layout/Layout";
 import ProductDetail from "@/components/containers/product/ProductDetail";
 import { fetchProductBySlug } from "@/i18n/server";
@@ -22,7 +23,9 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 const ProductDetailPage = async ({ params }: Props) => {
-  const { slug } = await params;
+  const { slug, locale } = await params;
+  const item = await fetchProductBySlug(slug, locale ?? "tr");
+  if (!item) notFound();
 
   return (
     <Layout header={1} footer={1}>
