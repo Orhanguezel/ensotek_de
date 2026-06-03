@@ -5,6 +5,7 @@ import QualityDetailContent from "@/components/containers/custom-pages/QualityDe
 import Banner from "@/components/layout/banner/Banner";
 import { getTranslations } from "next-intl/server";
 import { fetchPageSeo } from "@/i18n/server";
+import { canonicalFor, languagesMap } from "@/seo/alternates";
 import { customPagesService } from "@/features/custom-pages/customPages.service";
 import { siteSettingsService } from "@/features/site-settings/siteSettings.service";
 
@@ -21,6 +22,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: pageSeo?.description || t("quality_description"),
     ...(pageSeo?.og_image ? { openGraph: { images: [pageSeo.og_image] } } : {}),
     ...(pageSeo?.no_index ? { robots: { index: false, follow: true } } : {}),
+    alternates: {
+      canonical: await canonicalFor(locale, "/quality"),
+      languages: await languagesMap("/quality"),
+    },
   };
 }
 

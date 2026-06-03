@@ -8,15 +8,21 @@ import Layout from '@/components/layout/Layout';
 import Banner from '@/components/layout/banner/Banner';
 import Image from 'next/image';
 import { resolveMediaUrl } from '@/lib/media';
+import { canonicalFor, languagesMap } from '@/seo/alternates';
 
 interface Props {
   params: Promise<{ locale: string }>;
 }
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
   return {
     title: 'Referenzen',
     description: 'Unsere Projekte und Referenzen — Kühltürme und Kühlanlagen weltweit.',
+    alternates: {
+      canonical: await canonicalFor(locale, '/references'),
+      languages: await languagesMap('/references'),
+    },
   };
 }
 

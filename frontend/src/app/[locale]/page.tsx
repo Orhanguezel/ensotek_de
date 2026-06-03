@@ -13,6 +13,7 @@ import Newsletter from "@/components/containers/newsletter/Newsletter";
 import LibrarySection from "@/components/containers/library/LibrarySection";
 import NewsSection from "@/components/containers/news/NewsSection";
 import { fetchSliders, fetchPageSeo } from "@/i18n/server";
+import { canonicalFor, languagesMap } from "@/seo/alternates";
 import { resolveMediaUrl } from "@/lib/media";
 
 export const revalidate = 60;
@@ -26,6 +27,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
   return {
     title: pageSeo?.title || t("home_title"),
     description: pageSeo?.description || t("home_description"),
+    alternates: {
+      canonical: await canonicalFor(locale, "/"),
+      languages: await languagesMap("/"),
+    },
     ...(pageSeo?.og_image ? { openGraph: { images: [pageSeo.og_image] } } : {}),
     ...(pageSeo?.no_index ? { robots: { index: false, follow: true } } : {}),
   };
