@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Layout from "@/components/layout/Layout";
 import ServiceDetailWrapper from "./ServiceDetailWrapper";
 import { fetchServiceBySlug } from "@/i18n/server";
+import { canonicalFor, languagesMap } from "@/seo/alternates";
 
 interface Props {
   params: Promise<{
@@ -19,6 +20,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: item.meta_title || item.title || item.name,
     description: item.meta_description || item.summary || undefined,
+    alternates: {
+      canonical: await canonicalFor(locale, `/service/${slug}`),
+      languages: await languagesMap(`/service/${slug}`),
+    },
   };
 }
 

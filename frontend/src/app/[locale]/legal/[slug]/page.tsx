@@ -4,15 +4,22 @@ import Layout from "@/components/layout/Layout";
 import Banner from "@/components/layout/banner/Banner";
 import LegalSidebarPage from "@/components/containers/legal/LegalSidebarPage";
 import { getTranslations } from "next-intl/server";
+import { canonicalFor, languagesMap } from "@/seo/alternates";
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
 }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = await params;
+  const { locale, slug } = await params;
   const t = await getTranslations({ locale, namespace: "seo" });
-  return { title: t("legal_title") };
+  return {
+    title: t("legal_title"),
+    alternates: {
+      canonical: await canonicalFor(locale, `/legal/${slug}`),
+      languages: await languagesMap(`/legal/${slug}`),
+    },
+  };
 }
 
 const LegalDetailPage = async ({ params }: Props) => {

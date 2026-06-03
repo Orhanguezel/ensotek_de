@@ -6,6 +6,7 @@ import Banner from "@/components/layout/banner/Banner";
 import LibraryDetail from "@/components/containers/library/LibraryDetail";
 import { getTranslations } from "next-intl/server";
 import { fetchLibraryBySlug } from "@/i18n/server";
+import { canonicalFor, languagesMap } from "@/seo/alternates";
 
 interface Props {
   params: Promise<{
@@ -21,6 +22,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: item.meta_title || item.title || item.name,
     description: item.meta_description || item.summary || undefined,
+    alternates: {
+      canonical: await canonicalFor(locale, `/library/${slug}`),
+      languages: await languagesMap(`/library/${slug}`),
+    },
   };
 }
 

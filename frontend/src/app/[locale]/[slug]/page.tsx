@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import Layout from "@/components/layout/Layout";
 import PageSwitch from "@/components/containers/custom-pages/PageSwitch";
 import { fetchCustomPage } from "@/i18n/server";
+import { canonicalFor, languagesMap } from "@/seo/alternates";
 
 interface Props {
   params: Promise<{
@@ -19,6 +20,10 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   return {
     title: item.meta_title || item.title,
     description: item.meta_description || item.summary || undefined,
+    alternates: {
+      canonical: await canonicalFor(locale, `/${slug}`),
+      languages: await languagesMap(`/${slug}`),
+    },
   };
 }
 
