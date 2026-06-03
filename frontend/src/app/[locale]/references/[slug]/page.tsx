@@ -1,5 +1,6 @@
 import type { Metadata } from 'next';
 import { setRequestLocale, getTranslations } from 'next-intl/server';
+import { notFound } from 'next/navigation';
 import { Link } from '@/i18n/routing';
 import Image from 'next/image';
 import { getReferenceBySlug, getReferences } from '@ensotek/core/services';
@@ -39,18 +40,7 @@ export default async function ReferenceDetailPage({ params }: Props) {
   const raw = await getReferenceBySlug(API_BASE_URL, slug, locale).catch(() => null);
   const ref = (raw as { data?: Reference } | null)?.data ?? (raw as Reference | null);
 
-  if (!ref) {
-    return (
-      <Layout header={1} footer={1}>
-        <div className="container pt-120 pb-120 text-center">
-            <h2 className="mb-30">{t('noResults')}</h2>
-            <Link href="/references" className="btn btn-primary">
-               {t('backToReferences')}
-            </Link>
-        </div>
-      </Layout>
-    );
-  }
+  if (!ref) notFound();
 
   const galleryImages = (ref.gallery ?? [])
     .filter((img) => img.image_url && img.is_published)
