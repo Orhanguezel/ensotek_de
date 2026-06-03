@@ -10,6 +10,7 @@ import PageReaction from "./PageReaction";
 
 import { useTranslations } from "next-intl";
 import { resolveMediaUrl } from "@/lib/media";
+import { CertificateGallery } from "@/components/sections/CertificateGallery";
 
 interface PageDetailProps {
   item: CustomPage;
@@ -162,23 +163,13 @@ const PageDetail = ({ item }: PageDetailProps) => {
                         {/* Gallery Images */}
                         {item.images && item.images.length > 0 && (
                             <div className="technical__gallery mt-45">
-                                <div className="row">
-                                    {item.images.map((img, idx) => (
-                                        <div key={idx} className="col-xl-4 col-lg-4 col-md-6 mb-30">
-                                            <div className="technical__gallery-item" style={{ borderRadius: '15px', overflow: 'hidden', boxShadow: '0 5px 15px rgba(0,0,0,0.05)' }}>
-                                                <Image
-                                                    src={resolveMediaUrl(img)}
-                                                    alt={`${item.title} gallery ${idx + 1}`}
-                                                    width={400}
-                                                    height={300}
-                                                    unoptimized
-                                                    sizes="(max-width: 768px) 100vw, 33vw"
-                                                    style={{ width: '100%', height: 'auto', objectFit: 'cover' }}
-                                                />
-                                            </div>
-                                        </div>
-                                    ))}
-                                </div>
+                                <CertificateGallery
+                                    items={item.images.map((img, idx) => ({
+                                        src: img,
+                                        alt: `${item.title} ${idx + 1}`,
+                                        title: `${item.title} ${idx + 1}`,
+                                    }))}
+                                />
                             </div>
                         )}
 
