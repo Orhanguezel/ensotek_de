@@ -10,6 +10,7 @@ import Layout from '@/components/layout/Layout';
 import Banner from '@/components/layout/banner/Banner';
 import { ReferenceGallery } from '@/components/sections/ReferenceGallery';
 import { resolveMediaUrl } from '@/lib/media';
+import { canonicalFor, languagesMap } from '@/seo/alternates';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -24,10 +25,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const raw = await getReferenceBySlug(API_BASE_URL, slug, locale).catch(() => null);
   const ref = (raw as { data?: Reference } | null)?.data ?? (raw as Reference | null);
-  if (!ref) return { title: 'Referenz' };
+  if (!ref)
+    return {
+      title: 'Referenz',
+      alternates: {
+        canonical: await canonicalFor(locale, `/references/${slug}`),
+        languages: await languagesMap(`/references/${slug}`),
+      },
+    };
   return {
     title: ref.meta_title ?? ref.title,
     description: ref.meta_description ?? ref.summary ?? undefined,
+    alternates: {
+      canonical: await canonicalFor(locale, `/references/${slug}`),
+      languages: await languagesMap(`/references/${slug}`),
+    },
   };
 }
 

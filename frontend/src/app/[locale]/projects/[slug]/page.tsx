@@ -9,6 +9,7 @@ import type { Project } from '@ensotek/core/types';
 import { API_BASE_URL } from '@/i18n/locale-settings';
 import { ReferenceGallery } from '@/components/sections/ReferenceGallery';
 import { resolveMediaUrl } from '@/lib/media';
+import { canonicalFor, languagesMap } from '@/seo/alternates';
 
 interface Props {
   params: Promise<{ locale: string; slug: string }>;
@@ -23,10 +24,21 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale, slug } = await params;
   const raw = await getProjectBySlug(API_BASE_URL, slug, locale).catch(() => null);
   const proj = (raw as { data?: Project } | null)?.data ?? (raw as Project | null);
-  if (!proj) return { title: 'Projekt' };
+  if (!proj)
+    return {
+      title: 'Projekt',
+      alternates: {
+        canonical: await canonicalFor(locale, `/projects/${slug}`),
+        languages: await languagesMap(`/projects/${slug}`),
+      },
+    };
   return {
     title: proj.meta_title ?? proj.title,
     description: proj.meta_description ?? proj.summary ?? undefined,
+    alternates: {
+      canonical: await canonicalFor(locale, `/projects/${slug}`),
+      languages: await languagesMap(`/projects/${slug}`),
+    },
   };
 }
 
