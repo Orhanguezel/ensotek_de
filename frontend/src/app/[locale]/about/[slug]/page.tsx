@@ -1,6 +1,6 @@
 import React from "react";
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Layout from "@/components/layout/Layout";
 import PageSwitch from "@/components/containers/custom-pages/PageSwitch";
 import { fetchCustomPage } from "@/i18n/server";
@@ -31,6 +31,14 @@ const AboutDetailPage = async ({ params }: Props) => {
   const { slug, locale } = await params;
   const item = await fetchCustomPage(slug, locale ?? "tr");
   if (!item) notFound();
+
+  // mission/vision tekil sayfaları, vizyon+misyonun birlikte gösterildiği
+  // /mission-vision sayfasına kalıcı yönlendirilir (tek kaynak, duplicate yok).
+  const moduleKey = (item as { module_key?: string }).module_key;
+  if (moduleKey === "mission" || moduleKey === "vision") {
+    permanentRedirect(`/${locale}/mission-vision`);
+  }
+
   return (
     <Layout header={1} footer={1}>
       <PageSwitch slug={slug} />
