@@ -6,6 +6,7 @@ import LibraryList from "@/components/containers/library/LibraryList";
 import WetBulbCalculator from "@/components/containers/library/WetBulbCalculator";
 import { getTranslations } from "next-intl/server";
 import { fetchPageSeo } from "@/i18n/server";
+import { canonicalFor, languagesMap } from "@/seo/alternates";
 
 export const dynamic = 'force-dynamic';
 
@@ -20,6 +21,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: pageSeo?.description || t("library_description"),
     ...(pageSeo?.og_image ? { openGraph: { images: [pageSeo.og_image] } } : {}),
     ...(pageSeo?.no_index ? { robots: { index: false, follow: true } } : {}),
+    alternates: {
+      canonical: await canonicalFor(locale, "/library"),
+      languages: await languagesMap("/library"),
+    },
   };
 }
 

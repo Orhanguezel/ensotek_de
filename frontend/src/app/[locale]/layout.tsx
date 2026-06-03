@@ -64,12 +64,11 @@ export async function generateMetadata({
     description,
     authors: [{ name: siteName }],
     publisher: siteName,
-    alternates: {
-      canonical: `${siteUrl}/${locale}`,
-      languages: Object.fromEntries(
-        AVAILABLE_LOCALES.map((l) => [l, `${siteUrl}/${l}`]),
-      ),
-    },
+    // NOT: Canonical/hreflang BURADA üretilmez. Layout tüm sayfalara
+    // uygulandığı ve path bilmediği için, statik bir canonical her sayfayı
+    // anasayfaya işaret ettirirdi (GSC duplicate-canonical kaynağı).
+    // Her sayfa kendi generateMetadata'sında canonicalFor()/languagesMap()
+    // (@/seo/alternates) ile path-aware alternates üretir.
     openGraph: {
       type: 'website',
       url: `/${locale}`,

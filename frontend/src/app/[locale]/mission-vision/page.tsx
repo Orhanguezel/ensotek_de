@@ -5,6 +5,7 @@ import Banner from "@/components/layout/banner/Banner";
 import MissionVisionContent from "@/components/containers/custom-pages/MissionVisionContent";
 import { getTranslations } from "next-intl/server";
 import { fetchPageSeo } from "@/i18n/server";
+import { canonicalFor, languagesMap } from "@/seo/alternates";
 import { customPagesService } from "@/features/custom-pages/customPages.service";
 
 export const dynamic = 'force-dynamic';
@@ -20,6 +21,10 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
     description: pageSeo?.description || t("mission_vision_description"),
     ...(pageSeo?.og_image ? { openGraph: { images: [pageSeo.og_image] } } : {}),
     ...(pageSeo?.no_index ? { robots: { index: false, follow: true } } : {}),
+    alternates: {
+      canonical: await canonicalFor(locale, "/mission-vision"),
+      languages: await languagesMap("/mission-vision"),
+    },
   };
 }
 

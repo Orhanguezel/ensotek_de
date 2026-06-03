@@ -7,15 +7,21 @@ import { getProjects } from '@ensotek/core/services';
 import type { Project } from '@ensotek/core/types';
 import { API_BASE_URL } from '@/i18n/locale-settings';
 import { resolveMediaUrl } from '@/lib/media';
+import { canonicalFor, languagesMap } from '@/seo/alternates';
 
 interface Props {
   params: Promise<{ locale: string }>;
 }
 
-export async function generateMetadata(): Promise<Metadata> {
+export async function generateMetadata({ params }: Props): Promise<Metadata> {
+  const { locale } = await params;
   return {
     title: 'Projekte',
     description: 'Erfolgreiche Installationen und Lösungen für unsere Kunden.',
+    alternates: {
+      canonical: await canonicalFor(locale, '/projects'),
+      languages: await languagesMap('/projects'),
+    },
   };
 }
 
