@@ -10,7 +10,7 @@ VALUES
   ('bbbb52a5-1111-4111-8111-bbbbbbbb52a5','aaaa5002-1111-4111-8111-aaaaaaaa5002',NULL,NULL,NULL,NULL,1,0,24),
   ('bbbb52a6-1111-4111-8111-bbbbbbbb52a6','aaaa5002-1111-4111-8111-aaaaaaaa5002',NULL,NULL,NULL,NULL,1,0,25)
 ON DUPLICATE KEY UPDATE `category_id`=VALUES(`category_id`),`is_active`=VALUES(`is_active`);
-INSERT INTO `sub_category_i18n` (`sub_category_id`,`locale`,`name`,`slug`,`description`,`meta_title`) VALUES
+INSERT INTO `sub_category_i18n` (`sub_category_id`,`locale`,`name`,`slug`,`description`,`alt`) VALUES
   ('bbbb52a1-1111-4111-8111-bbbbbbbb52a1','tr','Alüminyum & Tel Çekme','aluminyum-tel-cekme',NULL,NULL),
   ('bbbb52a1-1111-4111-8111-bbbbbbbb52a1','en','Aluminium & Wire Drawing','aluminium-wire-drawing',NULL,NULL),
   ('bbbb52a1-1111-4111-8111-bbbbbbbb52a1','de','Aluminium & Drahtziehen','aluminium-drahtziehen',NULL,NULL),
