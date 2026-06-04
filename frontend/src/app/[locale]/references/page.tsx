@@ -36,7 +36,7 @@ export default async function ReferencesPage({ params }: Props) {
 
   const [references, subCats] = await Promise.all([
     getReferences(API_BASE_URL, {
-      language: locale,
+      locale,
       is_published: true,
       limit: 1000,
     }).catch(() => [] as Reference[]),
