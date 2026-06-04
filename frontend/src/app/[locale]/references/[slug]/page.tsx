@@ -64,7 +64,7 @@ export default async function ReferenceDetailPage({ params }: Props) {
     }));
 
   const allRefs = await getReferences(API_BASE_URL, {
-    language: locale,
+    locale,
     is_published: true,
     limit: 10,
   }).catch(() => []);
