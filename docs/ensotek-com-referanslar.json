@@ -1,0 +1,3282 @@
+[
+  {
+    "name": "abc salca",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-abc-salca-250x250-1.jpg"
+  },
+  {
+    "name": "acarsoy tekstil",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/17/acarsoy-tekstil-250x250-1.png"
+  },
+  {
+    "name": "accado kilit",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-accado-kilit-250x250-1.jpg"
+  },
+  {
+    "name": "acity",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-acity-250x250-1.jpg"
+  },
+  {
+    "name": "adacal",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-adacal-250x250-1.jpg"
+  },
+  {
+    "name": "ado mining",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-ado-mining-250x250-1.jpg"
+  },
+  {
+    "name": "adopen",
+    "categories": [
+      "Başlıca Referanslar",
+      "Metal",
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-adopen-250x250-1.jpg"
+  },
+  {
+    "name": "ak aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-ak-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "akbati avm",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-akbati-avm-250x250-1.jpg"
+  },
+  {
+    "name": "akcansa",
+    "categories": [
+      "Başlıca Referanslar",
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-akcansa-250x250-1.jpg"
+  },
+  {
+    "name": "akdas dokum",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-akdas-dokum-250x250-1.jpg"
+  },
+  {
+    "name": "akim metal",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/akim-metal-250x250-1.jpg"
+  },
+  {
+    "name": "akkardan",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-akkardan-250x250-1.jpg"
+  },
+  {
+    "name": "akoni kimya as",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-akoni-kimya-as-250x250-1.jpg"
+  },
+  {
+    "name": "al asim aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-al-asim-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "albayrak branda",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-albayrak-branda-250x250-1.jpg"
+  },
+  {
+    "name": "alemdar",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-alemdar-250x250-1.jpg"
+  },
+  {
+    "name": "alfa metal",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/alfa-metal-250x250-1.png"
+  },
+  {
+    "name": "altaca enerji",
+    "categories": [
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/17/ensotek-referanslari-altaca-enerji-250x250-1.jpg"
+  },
+  {
+    "name": "altinsu tekstil",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/17/altinsu-tekstil-250x250-1.png"
+  },
+  {
+    "name": "altinyag",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-altinyag-250x250-1.jpg"
+  },
+  {
+    "name": "alubond",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-alubond-250x250-1.jpg"
+  },
+  {
+    "name": "alumati",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-alumati-250x250-1.jpg"
+  },
+  {
+    "name": "alumina",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-alumina-250x250-1.jpg"
+  },
+  {
+    "name": "aluminco",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-aluminco-250x250-1.jpg"
+  },
+  {
+    "name": "alutek",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-alutek-250x250-1.jpg"
+  },
+  {
+    "name": "alyans yag",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-alyans-yag-250x250-1.jpg"
+  },
+  {
+    "name": "amana foods min",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/16/amana-foods-min-250x250-1.jpg"
+  },
+  {
+    "name": "amcor",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-amcor-250x250-1.jpg"
+  },
+  {
+    "name": "anatel",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/anatel-250x250-1.jpg"
+  },
+  {
+    "name": "anka",
+    "categories": [
+      "Metal",
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-anka-250x250-1.jpg"
+  },
+  {
+    "name": "ara makina",
+    "categories": [
+      "Alüminyum - Tel Çekme",
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-ara-makina-250x250-1.jpg"
+  },
+  {
+    "name": "ara makina min",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/ara-makina-min-250x250-1.jpg"
+  },
+  {
+    "name": "arcelik",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-arcelik-250x250-1.jpg"
+  },
+  {
+    "name": "ardokum merdane",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/ardokum-merdane-250x250-1.png"
+  },
+  {
+    "name": "aref sogutma min",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/aref-sogutma-min-250x250-1.jpg"
+  },
+  {
+    "name": "arfen aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-arfen-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "ark emre",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-ark-emre-250x250-1.jpg"
+  },
+  {
+    "name": "arslan aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme",
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-arslan-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "as cimento",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-as-cimento-250x250-1.jpg"
+  },
+  {
+    "name": "aschem",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/5/ensotek-referanslari-aschem-250x250-1.jpg"
+  },
+  {
+    "name": "asico",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-asico-250x250-1.jpg"
+  },
+  {
+    "name": "askale cimento",
+    "categories": [
+      "Başlıca Referanslar",
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-askale-cimento-250x250-1.jpg"
+  },
+  {
+    "name": "aslanli tel sanayi",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-aslanli-tel-sanayi-250x250-1.jpg"
+  },
+  {
+    "name": "assan aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme",
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-assan-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "atak ambalaj",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-atak-ambalaj-250x250-1.jpg"
+  },
+  {
+    "name": "atesoglu",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-atesoglu-250x250-1.jpg"
+  },
+  {
+    "name": "aves",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-aves-250x250-1.jpg"
+  },
+  {
+    "name": "ay nisasta",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-ay-nisasta-250x250-1.jpg"
+  },
+  {
+    "name": "ayata metal endustri boru profil",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-ayata-metal-endustri-boru-profil-250x250-1.jpg"
+  },
+  {
+    "name": "ayd",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-ayd-250x250-1.jpg"
+  },
+  {
+    "name": "aydemir",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-aydemir-250x250-1.jpg"
+  },
+  {
+    "name": "aydin orme",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-aydin-orme-250x250-1.jpg"
+  },
+  {
+    "name": "ayes celik hasir",
+    "categories": [
+      "Alüminyum - Tel Çekme",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/ayes-celik-hasir-250x250-1.jpg"
+  },
+  {
+    "name": "azermaya",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-azermaya-250x250-1.jpg"
+  },
+  {
+    "name": "azra biskuvi",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-azra-biskuvi-250x250-1.jpg"
+  },
+  {
+    "name": "b c food",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/16/b-c-food-250x250-1.jpg"
+  },
+  {
+    "name": "bahariye",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-bahariye-250x250-1.jpg"
+  },
+  {
+    "name": "baktat min",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/15/baktat-min-250x250-1.jpg"
+  },
+  {
+    "name": "baktiroglu",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/17/baktiroglu-250x250-1.png"
+  },
+  {
+    "name": "balkan sut",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-balkan-sut-250x250-1.jpg"
+  },
+  {
+    "name": "balsuyu",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/17/balsuyu-250x250-1.png"
+  },
+  {
+    "name": "basf",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-basf-250x250-1.jpg"
+  },
+  {
+    "name": "bati anadolu",
+    "categories": [
+      "Başlıca Referanslar",
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-bati-anadolu-250x250-1.jpg"
+  },
+  {
+    "name": "bati soke",
+    "categories": [
+      "Başlıca Referanslar",
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-bati-soke-250x250-1.jpg"
+  },
+  {
+    "name": "baycan gida",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-baycan-gida-250x250-1.jpg"
+  },
+  {
+    "name": "baydemirler",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-baydemirler-250x250-1.jpg"
+  },
+  {
+    "name": "bayindir hastanesi",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-bayindir-hastanesi-250x250-1.jpg"
+  },
+  {
+    "name": "bayrampasa belediyesi",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/16/bayrampasa-belediyesi-250x250-1.png"
+  },
+  {
+    "name": "bdc bilecik demir celik san ve tic as",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-bdc-bilecik-demir-celik-san-ve-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "bekaert",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-bekaert-250x250-1.jpg"
+  },
+  {
+    "name": "belkis yag",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-belkis-yag-250x250-1.jpg"
+  },
+  {
+    "name": "berrak",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-berrak-250x250-1.jpg"
+  },
+  {
+    "name": "besel min",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/16/besel-min-250x250-1.jpg"
+  },
+  {
+    "name": "beta tea",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-beta-tea-250x250-1.jpg"
+  },
+  {
+    "name": "betek",
+    "categories": [
+      "Başlıca Referanslar",
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-betek-250x250-1.jpg"
+  },
+  {
+    "name": "beypilic",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-beypilic-250x250-1.jpg"
+  },
+  {
+    "name": "bezmez",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-bezmez-250x250-1.jpg"
+  },
+  {
+    "name": "bilim kimya",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/17/bilim-kimya-250x250-1.png"
+  },
+  {
+    "name": "billur tuz min",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/15/billur-tuz-min-250x250-1.png"
+  },
+  {
+    "name": "birlesik akrilik san ve tic ltd sti",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-birlesik-akrilik-san-ve-tic-ltd-sti-250x250-1.jpg"
+  },
+  {
+    "name": "biscot",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-biscot-250x250-1.jpg"
+  },
+  {
+    "name": "bmcolor",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/5/ensotek-referanslari-bmcolor-250x250-1.jpg"
+  },
+  {
+    "name": "bms birlesik metal min",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/bms-birlesik-metal-min-250x250-1.png"
+  },
+  {
+    "name": "bolacalar un ve yem",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-bolacalar-un-ve-yem-250x250-1.jpg"
+  },
+  {
+    "name": "bolvadin sut",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/16/bolvadin-sut-250x250-1.png"
+  },
+  {
+    "name": "bor aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-bor-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "bor billet aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-bor-billet-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "borusan mannesmann",
+    "categories": [
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-borusan-mannesmann-250x250-1.jpg"
+  },
+  {
+    "name": "botech",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/16/botech-250x250-1.png"
+  },
+  {
+    "name": "boycelik",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-boycelik-250x250-1.jpg"
+  },
+  {
+    "name": "boycelik metal san ve tic as",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/15/boycelik-metal-san-ve-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "bozzetto group",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-bozzetto-group-250x250-1.jpg"
+  },
+  {
+    "name": "brofind min",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/brofind-min-250x250-1.jpg"
+  },
+  {
+    "name": "bunsa dokum",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/bunsa-dokum-250x250-1.png"
+  },
+  {
+    "name": "burak aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-burak-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "bursa jelatin",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/17/bursa-jelatin-250x250-1.jpg"
+  },
+  {
+    "name": "cag celik endustri as",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-cag-celik-endustri-as-250x250-1.jpg"
+  },
+  {
+    "name": "cagdas pano",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-cagdas-pano-250x250-1.jpg"
+  },
+  {
+    "name": "can metal",
+    "categories": [
+      "Alüminyum - Tel Çekme",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-can-metal-250x250-1.jpg"
+  },
+  {
+    "name": "capacity",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-capacity-250x250-1.jpg"
+  },
+  {
+    "name": "capitol avm",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-capitol-avm-250x250-1.jpg"
+  },
+  {
+    "name": "cb metal",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-cb-metal-250x250-1.jpg"
+  },
+  {
+    "name": "celemler",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-celemler-250x250-1.jpg"
+  },
+  {
+    "name": "celik granul",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-celik-granul-250x250-1.jpg"
+  },
+  {
+    "name": "celikyay",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-celikyay-250x250-1.jpg"
+  },
+  {
+    "name": "cemak",
+    "categories": [
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/16/cemak-250x250-1.png"
+  },
+  {
+    "name": "cengiz holding",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-cengiz-holding-250x250-1.jpg"
+  },
+  {
+    "name": "cici sut",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-cici-sut-250x250-1.jpg"
+  },
+  {
+    "name": "cihan metal san ve tic as",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-cihan-metal-san-ve-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "cimentas group",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-cimentas-group-250x250-1.jpg"
+  },
+  {
+    "name": "cimko",
+    "categories": [
+      "Başlıca Referanslar",
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-cimko-250x250-1.jpg"
+  },
+  {
+    "name": "cimpor",
+    "categories": [
+      "Başlıca Referanslar",
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-cimpor-250x250-1.jpg"
+  },
+  {
+    "name": "cimsa",
+    "categories": [
+      "Başlıca Referanslar",
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-cimsa-250x250-1.jpg"
+  },
+  {
+    "name": "coats",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-coats-250x250-1.jpg"
+  },
+  {
+    "name": "cokyasar tel orme ve dokuma",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-cokyasar-tel-orme-ve-dokuma-250x250-1.jpg"
+  },
+  {
+    "name": "colgate palmolive min",
+    "categories": [
+      "Başlıca Referanslar",
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/15/colgate-palmolive-min-250x250-1.png"
+  },
+  {
+    "name": "componenta",
+    "categories": [
+      "Metal",
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-componenta-250x250-1.jpg"
+  },
+  {
+    "name": "crown bevcan",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/16/crown-bevcan-250x250-1.jpg"
+  },
+  {
+    "name": "csm",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/csm-250x250-1.jpg"
+  },
+  {
+    "name": "cuhadaroglu aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-cuhadaroglu-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "dalan kimya",
+    "categories": [
+      "Başlıca Referanslar",
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-dalan-kimya-250x250-1.jpg"
+  },
+  {
+    "name": "dalan yag min",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/17/dalan-yag-min-250x250-1.png"
+  },
+  {
+    "name": "demirsan soguk cekme san ve tic as",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-demirsan-soguk-cekme-san-ve-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "demko konservecilik",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/16/demko-konservecilik-250x250-1.jpg"
+  },
+  {
+    "name": "dikmen otomotiv san ve tic ltd sti",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-dikmen-otomotiv-san-ve-tic-ltd-sti-250x250-1.jpg"
+  },
+  {
+    "name": "dimak diren",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-dimak-diren-250x250-1.jpg"
+  },
+  {
+    "name": "dimes",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-dimes-250x250-1.jpg"
+  },
+  {
+    "name": "diyar kablo",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-diyar-kablo-250x250-1.jpg"
+  },
+  {
+    "name": "doga",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-doga-250x250-1.jpg"
+  },
+  {
+    "name": "dogus insaat ve ticaret as",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-dogus-insaat-ve-ticaret-as-250x250-1.jpg"
+  },
+  {
+    "name": "dogus yag",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-dogus-yag-250x250-1.jpg"
+  },
+  {
+    "name": "dok duru yag",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-dok-duru-yag-250x250-1.jpg"
+  },
+  {
+    "name": "doktim",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-doktim-250x250-1.jpg"
+  },
+  {
+    "name": "dr oetker",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-dr-oetker-250x250-1.jpg"
+  },
+  {
+    "name": "draco",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-draco-250x250-1.jpg"
+  },
+  {
+    "name": "dunlop",
+    "categories": [
+      "Başlıca Referanslar",
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-dunlop-250x250-1.jpg"
+  },
+  {
+    "name": "dystar",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-dystar-250x250-1.jpg"
+  },
+  {
+    "name": "ecoplast",
+    "categories": [
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-ecoplast-250x250-1.jpg"
+  },
+  {
+    "name": "eczacibasi vitra",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/17/eczacibasi-vitra-250x250-1.jpg"
+  },
+  {
+    "name": "ege proses",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/ege-proses-250x250-1.png"
+  },
+  {
+    "name": "egesil kimya min",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/17/egesil-kimya-min-250x250-1.png"
+  },
+  {
+    "name": "ekiz yag",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-ekiz-yag-250x250-1.jpg"
+  },
+  {
+    "name": "elif plastik",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-elif-plastik-250x250-1.jpg"
+  },
+  {
+    "name": "elitas grup",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/16/elitas-grup-250x250-1.png"
+  },
+  {
+    "name": "engin group",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-engin-group-250x250-1.jpg"
+  },
+  {
+    "name": "ephesus min",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/17/ephesus-min-250x250-1.png"
+  },
+  {
+    "name": "er demir",
+    "categories": [
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-er-demir-250x250-1.jpg"
+  },
+  {
+    "name": "erbosan",
+    "categories": [
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-erbosan-250x250-1.jpg"
+  },
+  {
+    "name": "erc",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-erc-250x250-1.jpg"
+  },
+  {
+    "name": "erciyas",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-erciyas-250x250-1.jpg"
+  },
+  {
+    "name": "erel sert krom",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-erel-sert-krom-250x250-1.jpg"
+  },
+  {
+    "name": "erel uluslararasi",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/erel-uluslararasi-250x250-1.png"
+  },
+  {
+    "name": "erkon",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-erkon-250x250-1.jpg"
+  },
+  {
+    "name": "ersan ambalaj ve yalitim san tic as",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-ersan-ambalaj-ve-yalitim-san-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "eryap grup",
+    "categories": [
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-eryap-grup-250x250-1.jpg"
+  },
+  {
+    "name": "esa kompozit",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-esa-kompozit-250x250-1.jpg"
+  },
+  {
+    "name": "esen mikronize maden san ve tic as",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-esen-mikronize-maden-san-ve-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "euas",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-euas-250x250-1.jpg"
+  },
+  {
+    "name": "euas_1",
+    "categories": [
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/17/ensotek-referanslari-euas_1-250x250-1.jpg"
+  },
+  {
+    "name": "fabal aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-fabal-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "falken",
+    "categories": [
+      "Başlıca Referanslar",
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-falken-250x250-1.jpg"
+  },
+  {
+    "name": "fatih profil min",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/fatih-profil-min-250x250-1.jpg"
+  },
+  {
+    "name": "fenis aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-fenis-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "festival hali",
+    "categories": [
+      "Başlıca Referanslar",
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-festival-hali-250x250-1.jpg"
+  },
+  {
+    "name": "flokser textile",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-flokser-textile-250x250-1.jpg"
+  },
+  {
+    "name": "fmc hydraulic",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-fmc-hydraulic-250x250-1.jpg"
+  },
+  {
+    "name": "formal aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-formal-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "fourkim min",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/17/fourkim-min-250x250-1.jpg"
+  },
+  {
+    "name": "galleria avm",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-galleria-avm-250x250-1.jpg"
+  },
+  {
+    "name": "gbs gentas",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-gbs-gentas-250x250-1.jpg"
+  },
+  {
+    "name": "gedik",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/15/gedik-250x250-1.jpg"
+  },
+  {
+    "name": "gemciler",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-gemciler-250x250-1.jpg"
+  },
+  {
+    "name": "gencer",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-gencer-250x250-1.jpg"
+  },
+  {
+    "name": "gentas",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-gentas-250x250-1.jpg"
+  },
+  {
+    "name": "gentas kimya",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-gentas-kimya-250x250-1.jpg"
+  },
+  {
+    "name": "gimsan",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-gimsan-250x250-1.jpg"
+  },
+  {
+    "name": "giptas iplik san tic as",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-giptas-iplik-san-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "gkn",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/gkn-250x250-1.jpg"
+  },
+  {
+    "name": "global holding",
+    "categories": [
+      "Başlıca Referanslar",
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-global-holding-250x250-1.jpg"
+  },
+  {
+    "name": "green park hotels",
+    "categories": [
+      "AVM - İş Merkezi - Otel",
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-green-park-hotels-250x250-1.jpg"
+  },
+  {
+    "name": "greeneco enerji elektrik uretim as",
+    "categories": [
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/16/greeneco-enerji-elektrik-uretim-as-250x250-1.png"
+  },
+  {
+    "name": "grinballs",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/grinballs-250x250-1.png"
+  },
+  {
+    "name": "guney celik hasir ve demir mamulleri san tic as",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-guney-celik-hasir-ve-demir-mamulleri-san-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "guryag",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-guryag-250x250-1.jpg"
+  },
+  {
+    "name": "guven iplik",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-guven-iplik-250x250-1.jpg"
+  },
+  {
+    "name": "halavet gida",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-halavet-gida-250x250-1.jpg"
+  },
+  {
+    "name": "hasan kucukarslan metal",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-hasan-kucukarslan-metal-250x250-1.jpg"
+  },
+  {
+    "name": "hascelik group",
+    "categories": [
+      "Alüminyum - Tel Çekme",
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-hascelik-group-250x250-1.jpg"
+  },
+  {
+    "name": "hatboru",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-hatboru-250x250-1.jpg"
+  },
+  {
+    "name": "hayat kagit",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-hayat-kagit-250x250-1.jpg"
+  },
+  {
+    "name": "hellenic",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/hellenic-250x250-1.jpg"
+  },
+  {
+    "name": "hes hacilar",
+    "categories": [
+      "Alüminyum - Tel Çekme",
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-hes-hacilar-250x250-1.jpg"
+  },
+  {
+    "name": "hilton avanos",
+    "categories": [
+      "AVM - İş Merkezi - Otel",
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-hilton-avanos-250x250-1.jpg"
+  },
+  {
+    "name": "ho won otomotiv",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-ho-won-otomotiv-250x250-1.jpg"
+  },
+  {
+    "name": "hwaseung",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-hwaseung-250x250-1.jpg"
+  },
+  {
+    "name": "hwaseung otomotiv",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/16/hwaseung-otomotiv-250x250-1.jpg"
+  },
+  {
+    "name": "ic hotels",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-ic-hotels-250x250-1.jpg"
+  },
+  {
+    "name": "icdas",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/icdas-250x250-1.png"
+  },
+  {
+    "name": "ilci holding",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-ilci-holding-250x250-1.jpg"
+  },
+  {
+    "name": "iltekno",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-iltekno-250x250-1.jpg"
+  },
+  {
+    "name": "inci kimya",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-inci-kimya-250x250-1.jpg"
+  },
+  {
+    "name": "ineva",
+    "categories": [
+      "Enerji",
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/16/ineva-250x250-1.png"
+  },
+  {
+    "name": "ipek",
+    "categories": [
+      "Başlıca Referanslar",
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-ipek-250x250-1.jpg"
+  },
+  {
+    "name": "isdemir",
+    "categories": [
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-isdemir-250x250-1.jpg"
+  },
+  {
+    "name": "isik",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-isik-250x250-1.jpg"
+  },
+  {
+    "name": "isimak",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-isimak-250x250-1.jpg"
+  },
+  {
+    "name": "iskefe",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-iskefe-250x250-1.jpg"
+  },
+  {
+    "name": "iskefe deri",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/17/iskefe-deri-250x250-1.png"
+  },
+  {
+    "name": "izgen",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-izgen-250x250-1.jpg"
+  },
+  {
+    "name": "izober besler",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-izober-besler-250x250-1.jpg"
+  },
+  {
+    "name": "jahon invest",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-jahon-invest-250x250-1.jpg"
+  },
+  {
+    "name": "jv agromir",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-jv-agromir-250x250-1.jpg"
+  },
+  {
+    "name": "kafaoglu",
+    "categories": [
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-kafaoglu-250x250-1.jpg"
+  },
+  {
+    "name": "kale",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-kale-250x250-1.jpg"
+  },
+  {
+    "name": "kale aero",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-kale-aero-250x250-1.jpg"
+  },
+  {
+    "name": "kale kayislari",
+    "categories": [
+      "Başlıca Referanslar",
+      "Mühendislik - Makine",
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-kale-kayislari-250x250-1.jpg"
+  },
+  {
+    "name": "kale kimya kimyevi mad san ve tic as",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-kale-kimya-kimyevi-mad-san-ve-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "kale sac",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-kale-sac-250x250-1.jpg"
+  },
+  {
+    "name": "kalkanci",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-kalkanci-250x250-1.jpg"
+  },
+  {
+    "name": "kalyon",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-kalyon-250x250-1.jpg"
+  },
+  {
+    "name": "kar group",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/17/kar-group-250x250-1.jpg"
+  },
+  {
+    "name": "kar yapi tasarim as",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-kar-yapi-tasarim-as-250x250-1.jpg"
+  },
+  {
+    "name": "karakoc tekstil san ve tic as",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-karakoc-tekstil-san-ve-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "karam yag",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-karam-yag-250x250-1.jpg"
+  },
+  {
+    "name": "karsan",
+    "categories": [
+      "Başlıca Referanslar",
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-karsan-250x250-1.jpg"
+  },
+  {
+    "name": "kartonsan",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-kartonsan-250x250-1.jpg"
+  },
+  {
+    "name": "kat company",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-kat-company-250x250-1.jpg"
+  },
+  {
+    "name": "kavsan",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-kavsan-250x250-1.jpg"
+  },
+  {
+    "name": "kay star",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-kay-star-250x250-1.jpg"
+  },
+  {
+    "name": "kaya aksesuar ve aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-kaya-aksesuar-ve-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "kaya hotels",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-kaya-hotels-250x250-1.jpg"
+  },
+  {
+    "name": "kayalar",
+    "categories": [
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-kayalar-250x250-1.jpg"
+  },
+  {
+    "name": "kayseri seker fabrikasi",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-kayseri-seker-fabrikasi-250x250-1.jpg"
+  },
+  {
+    "name": "kayseri stropor",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-kayseri-stropor-250x250-1.jpg"
+  },
+  {
+    "name": "kervansaray",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-kervansaray-250x250-1.jpg"
+  },
+  {
+    "name": "keskinoglu",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-keskinoglu-250x250-1.jpg"
+  },
+  {
+    "name": "kfs kucukcalik",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-kfs-kucukcalik-250x250-1.jpg"
+  },
+  {
+    "name": "kilic",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-kilic-250x250-1.jpg"
+  },
+  {
+    "name": "kimflor kimya san ve tic as",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-kimflor-kimya-san-ve-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "kipas holding",
+    "categories": [
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/16/ensotek-referanslari-kipas-holding-250x250-1.jpg"
+  },
+  {
+    "name": "kirpart",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-kirpart-250x250-1.jpg"
+  },
+  {
+    "name": "kombassan",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım",
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-kombassan-250x250-1.jpg"
+  },
+  {
+    "name": "kompen",
+    "categories": [
+      "Başlıca Referanslar",
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-kompen-250x250-1.jpg"
+  },
+  {
+    "name": "konya cimento",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-konya-cimento-250x250-1.jpg"
+  },
+  {
+    "name": "korel elektronik",
+    "categories": [
+      "Mühendislik - Makine",
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-korel-elektronik-250x250-1.jpg"
+  },
+  {
+    "name": "korfez dokum",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-korfez-dokum-250x250-1.jpg"
+  },
+  {
+    "name": "korkmaz tekstil",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-korkmaz-tekstil-250x250-1.jpg"
+  },
+  {
+    "name": "kormetal",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-kormetal-250x250-1.jpg"
+  },
+  {
+    "name": "koruma klor",
+    "categories": [
+      "Başlıca Referanslar",
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-koruma-klor-250x250-1.jpg"
+  },
+  {
+    "name": "koska",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-koska-250x250-1.jpg"
+  },
+  {
+    "name": "koskerler celik halat ve mak san tic ltd sti",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-koskerler-celik-halat-ve-mak-san-tic-ltd-sti-250x250-1.jpg"
+  },
+  {
+    "name": "kospek pekmez",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-kospek-pekmez-250x250-1.jpg"
+  },
+  {
+    "name": "kremel sa",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-kremel-sa-250x250-1.jpg"
+  },
+  {
+    "name": "kucukarslanlar",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-kucukarslanlar-250x250-1.jpg"
+  },
+  {
+    "name": "kudret metal min",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/15/kudret-metal-min-250x250-1.jpg"
+  },
+  {
+    "name": "kuhne",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-kuhne-250x250-1.jpg"
+  },
+  {
+    "name": "kurtoglu aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-kurtoglu-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "kuzu grup",
+    "categories": [
+      "AVM - İş Merkezi - Otel",
+      "Başlıca Referanslar",
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-kuzu-grup-250x250-1.jpg"
+  },
+  {
+    "name": "lafarge",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-lafarge-250x250-1.jpg"
+  },
+  {
+    "name": "limak",
+    "categories": [
+      "Başlıca Referanslar",
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-limak-250x250-1.jpg"
+  },
+  {
+    "name": "linde",
+    "categories": [
+      "Başlıca Referanslar",
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-linde-250x250-1.jpg"
+  },
+  {
+    "name": "linde min",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/17/linde-min-250x250-1.jpg"
+  },
+  {
+    "name": "llc",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-llc-250x250-1.jpg"
+  },
+  {
+    "name": "major skt",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-major-skt-250x250-1.jpg"
+  },
+  {
+    "name": "makina takim",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/makina-takim-250x250-1.png"
+  },
+  {
+    "name": "makina takim endustri as",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-makina-takim-endustri-as-250x250-1.jpg"
+  },
+  {
+    "name": "mardin cimento",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-mardin-cimento-250x250-1.jpg"
+  },
+  {
+    "name": "marsa yag",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-marsa-yag-250x250-1.jpg"
+  },
+  {
+    "name": "mass cement",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-mass-cement-250x250-1.jpg"
+  },
+  {
+    "name": "matek makina min",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/matek-makina-min-250x250-1.jpg"
+  },
+  {
+    "name": "maybi",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-maybi-250x250-1.jpg"
+  },
+  {
+    "name": "mayderi sanayi ve ticaret as",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-mayderi-sanayi-ve-ticaret-as-250x250-1.jpg"
+  },
+  {
+    "name": "meltem kimya",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-meltem-kimya-250x250-1.jpg"
+  },
+  {
+    "name": "mepar min",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/16/mepar-min-250x250-1.jpg"
+  },
+  {
+    "name": "meryan otel",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-meryan-otel-250x250-1.jpg"
+  },
+  {
+    "name": "mes yag",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-mes-yag-250x250-1.jpg"
+  },
+  {
+    "name": "metal matris sanayi ve ticaret as min",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/15/metal-matris-sanayi-ve-ticaret-as-min-250x250-1.png"
+  },
+  {
+    "name": "mey",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-mey-250x250-1.jpg"
+  },
+  {
+    "name": "meydan makas",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-meydan-makas-250x250-1.jpg"
+  },
+  {
+    "name": "midal kablo",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-midal-kablo-250x250-1.jpg"
+  },
+  {
+    "name": "milkon sut",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-milkon-sut-250x250-1.jpg"
+  },
+  {
+    "name": "mimsan endustri kazanlari",
+    "categories": [
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/16/mimsan-endustri-kazanlari-250x250-1.png"
+  },
+  {
+    "name": "mks mehmet eren otomotiv teks ve tic ltd sti",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-mks-mehmet-eren-otomotiv-teks-ve-tic-ltd-sti-250x250-1.jpg"
+  },
+  {
+    "name": "mmc",
+    "categories": [
+      "Mühendislik - Makine",
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-mmc-250x250-1.jpg"
+  },
+  {
+    "name": "mmk metalurji",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-mmk-metalurji-250x250-1.jpg"
+  },
+  {
+    "name": "mor aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-mor-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "moston",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-moston-250x250-1.jpg"
+  },
+  {
+    "name": "motorsan",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/motorsan-250x250-1.png"
+  },
+  {
+    "name": "muammer pirlanta dingil dokum",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-muammer-pirlanta-dingil-dokum-250x250-1.jpg"
+  },
+  {
+    "name": "muammer pirlanta min",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/16/muammer-pirlanta-min-250x250-1.jpg"
+  },
+  {
+    "name": "mudurnu",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-mudurnu-250x250-1.jpg"
+  },
+  {
+    "name": "mukarnas hotel",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-mukarnas-hotel-250x250-1.jpg"
+  },
+  {
+    "name": "muratli karton",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-muratli-karton-250x250-1.jpg"
+  },
+  {
+    "name": "mutlu aku",
+    "categories": [
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/17/ensotek-referanslari-mutlu-aku-250x250-1.jpg"
+  },
+  {
+    "name": "mutlusan electric",
+    "categories": [
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-mutlusan-electric-250x250-1.jpg"
+  },
+  {
+    "name": "nedex",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-nedex-250x250-1.jpg"
+  },
+  {
+    "name": "neseli sutcu",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-neseli-sutcu-250x250-1.jpg"
+  },
+  {
+    "name": "nevafil",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/17/nevafil-250x250-1.png"
+  },
+  {
+    "name": "nexans",
+    "categories": [
+      "Alüminyum - Tel Çekme",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-nexans-250x250-1.jpg"
+  },
+  {
+    "name": "nn metalurji",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/nn-metalurji-250x250-1.jpg"
+  },
+  {
+    "name": "noksel",
+    "categories": [
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-noksel-250x250-1.jpg"
+  },
+  {
+    "name": "novartis",
+    "categories": [
+      "Başlıca Referanslar",
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-novartis-250x250-1.jpg"
+  },
+  {
+    "name": "nuh cimento",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-nuh-cimento-250x250-1.jpg"
+  },
+  {
+    "name": "nuh kompozit",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-nuh-kompozit-250x250-1.jpg"
+  },
+  {
+    "name": "nuh panel",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-nuh-panel-250x250-1.jpg"
+  },
+  {
+    "name": "nuhtel makina san ve tic ltdi sti",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-nuhtel-makina-san-ve-tic-ltdi-sti-250x250-1.jpg"
+  },
+  {
+    "name": "nur cephe",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-nur-cephe-250x250-1.jpg"
+  },
+  {
+    "name": "nurol teknoloji",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-nurol-teknoloji-250x250-1.jpg"
+  },
+  {
+    "name": "okan min",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/okan-min-250x250-1.jpg"
+  },
+  {
+    "name": "okyanus aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-okyanus-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "onerler",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/onerler-250x250-1.png"
+  },
+  {
+    "name": "onerler makina",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-onerler-makina-250x250-1.jpg"
+  },
+  {
+    "name": "opet crystal industries",
+    "categories": [
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/16/opet-crystal-industries-250x250-1.jpg"
+  },
+  {
+    "name": "orion avm",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-orion-avm-250x250-1.jpg"
+  },
+  {
+    "name": "ormak",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/ormak-250x250-1.png"
+  },
+  {
+    "name": "orpir orman urunleri",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/16/orpir-orman-urunleri-250x250-1.jpg"
+  },
+  {
+    "name": "ortinox min",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/ortinox-min-250x250-1.png"
+  },
+  {
+    "name": "oryatas",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-oryatas-250x250-1.jpg"
+  },
+  {
+    "name": "oz plas",
+    "categories": [
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-oz-plas-250x250-1.jpg"
+  },
+  {
+    "name": "ozbak geri donusum",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-ozbak-geri-donusum-250x250-1.jpg"
+  },
+  {
+    "name": "ozcan",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-ozcan-250x250-1.jpg"
+  },
+  {
+    "name": "ozkaynak falez otel",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-ozkaynak-falez-otel-250x250-1.jpg"
+  },
+  {
+    "name": "pak yag",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-pak-yag-250x250-1.jpg"
+  },
+  {
+    "name": "panda",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-panda-250x250-1.jpg"
+  },
+  {
+    "name": "parteks",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-parteks-250x250-1.jpg"
+  },
+  {
+    "name": "perfetti",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-perfetti-250x250-1.jpg"
+  },
+  {
+    "name": "petlas",
+    "categories": [
+      "Başlıca Referanslar",
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-petlas-250x250-1.jpg"
+  },
+  {
+    "name": "pf",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-pf-250x250-1.jpg"
+  },
+  {
+    "name": "pilsan",
+    "categories": [
+      "Başlıca Referanslar",
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-pilsan-250x250-1.jpg"
+  },
+  {
+    "name": "pinar sut",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-pinar-sut-250x250-1.jpg"
+  },
+  {
+    "name": "pir inci imalat sanayi as",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-pir-inci-imalat-sanayi-as-250x250-1.jpg"
+  },
+  {
+    "name": "pirelli",
+    "categories": [
+      "Başlıca Referanslar",
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-pirelli-250x250-1.jpg"
+  },
+  {
+    "name": "plastay kimya",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-plastay-kimya-250x250-1.jpg"
+  },
+  {
+    "name": "plastifay kimya endustri",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-plastifay-kimya-endustri-250x250-1.jpg"
+  },
+  {
+    "name": "poliday",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-poliday-250x250-1.jpg"
+  },
+  {
+    "name": "polikor",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-polikor-250x250-1.jpg"
+  },
+  {
+    "name": "polimersan",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-polimersan-250x250-1.jpg"
+  },
+  {
+    "name": "polyteks tasdelen group",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-polyteks-tasdelen-group-250x250-1.jpg"
+  },
+  {
+    "name": "queens park tekirova resort spa",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/16/queens-park-tekirova-resort-spa-250x250-1.png"
+  },
+  {
+    "name": "ranteko",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/ranteko-250x250-1.png"
+  },
+  {
+    "name": "rast enerji",
+    "categories": [
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/16/ensotek-referanslari-rast-enerji-250x250-1.jpg"
+  },
+  {
+    "name": "ravaber",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-ravaber-250x250-1.jpg"
+  },
+  {
+    "name": "retay",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-retay-250x250-1.jpg"
+  },
+  {
+    "name": "reyka",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/16/reyka-250x250-1.jpg"
+  },
+  {
+    "name": "reyka konserve",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-reyka-konserve-250x250-1.jpg"
+  },
+  {
+    "name": "richmond pamukkale",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-richmond-pamukkale-250x250-1.jpg"
+  },
+  {
+    "name": "robat zagros mineral water",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-robat-zagros-mineral-water-250x250-1.jpg"
+  },
+  {
+    "name": "s sim telcekme teknolojileri",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-s-sim-telcekme-teknolojileri-250x250-1.jpg"
+  },
+  {
+    "name": "saadet gida",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-saadet-gida-250x250-1.jpg"
+  },
+  {
+    "name": "saglam metal",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/saglam-metal-250x250-1.png"
+  },
+  {
+    "name": "sahinler metal",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-sahinler-metal-250x250-1.jpg"
+  },
+  {
+    "name": "salti tuz",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-salti-tuz-250x250-1.jpg"
+  },
+  {
+    "name": "samavto",
+    "categories": [
+      "Başlıca Referanslar",
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-samavto-250x250-1.jpg"
+  },
+  {
+    "name": "samsun makina sanayi as",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-samsun-makina-sanayi-as-250x250-1.jpg"
+  },
+  {
+    "name": "saray aluminyum",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/15/saray-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "saray holding",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-saray-holding-250x250-1.jpg"
+  },
+  {
+    "name": "sardes",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/16/sardes-250x250-1.jpg"
+  },
+  {
+    "name": "sarten",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-sarten-250x250-1.jpg"
+  },
+  {
+    "name": "sebat",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/17/sebat-250x250-1.png"
+  },
+  {
+    "name": "sec salca",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-sec-salca-250x250-1.jpg"
+  },
+  {
+    "name": "secer tarim",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-secer-tarim-250x250-1.jpg"
+  },
+  {
+    "name": "sefkat metal geri donusumleri",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-sefkat-metal-geri-donusumleri-250x250-1.jpg"
+  },
+  {
+    "name": "sekeroglu",
+    "categories": [
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-sekeroglu-250x250-1.jpg"
+  },
+  {
+    "name": "sel sanayi",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-sel-sanayi-250x250-1.jpg"
+  },
+  {
+    "name": "sel sanayi min",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/17/sel-sanayi-min-250x250-1.jpg"
+  },
+  {
+    "name": "senpilic",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-senpilic-250x250-1.jpg"
+  },
+  {
+    "name": "seramiksan",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-seramiksan-250x250-1.jpg"
+  },
+  {
+    "name": "serko tekstil",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-serko-tekstil-250x250-1.jpg"
+  },
+  {
+    "name": "sertel hirdavat",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-sertel-hirdavat-250x250-1.jpg"
+  },
+  {
+    "name": "set cimento",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-set-cimento-250x250-1.jpg"
+  },
+  {
+    "name": "setas",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-setas-250x250-1.jpg"
+  },
+  {
+    "name": "seyitomer",
+    "categories": [
+      "Başlıca Referanslar",
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-seyitomer-250x250-1.jpg"
+  },
+  {
+    "name": "sibas gida",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-sibas-gida-250x250-1.jpg"
+  },
+  {
+    "name": "siddik kardesler",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-siddik-kardesler-250x250-1.jpg"
+  },
+  {
+    "name": "silvan sanayi as",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-silvan-sanayi-as-250x250-1.jpg"
+  },
+  {
+    "name": "simge endustriyel muh san ve tic ltd sti",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-simge-endustriyel-muh-san-ve-tic-ltd-sti-250x250-1.jpg"
+  },
+  {
+    "name": "sintek",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-sintek-250x250-1.jpg"
+  },
+  {
+    "name": "sirikcioglu mencucat",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-sirikcioglu-mencucat-250x250-1.jpg"
+  },
+  {
+    "name": "slava sut",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-slava-sut-250x250-1.jpg"
+  },
+  {
+    "name": "sodas sodyum sanayii as",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-sodas-sodyum-sanayii-as-250x250-1.jpg"
+  },
+  {
+    "name": "sonmez transformator",
+    "categories": [
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/17/sonmez-transformator-250x250-1.jpg"
+  },
+  {
+    "name": "starlight",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-starlight-250x250-1.jpg"
+  },
+  {
+    "name": "stroton",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-stroton-250x250-1.jpg"
+  },
+  {
+    "name": "sulfert kimya",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-sulfert-kimya-250x250-1.jpg"
+  },
+  {
+    "name": "sumitomo",
+    "categories": [
+      "Başlıca Referanslar",
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-sumitomo-250x250-1.jpg"
+  },
+  {
+    "name": "sumitomo rubber ako lastik san ve tic as",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/16/sumitomo-rubber-ako-lastik-san-ve-tic-as-250x250-1.png"
+  },
+  {
+    "name": "tai",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-tai-250x250-1.jpg"
+  },
+  {
+    "name": "tarimar",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-tarimar-250x250-1.jpg"
+  },
+  {
+    "name": "tat tekstil",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-tat-tekstil-250x250-1.jpg"
+  },
+  {
+    "name": "tayf kimya",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-tayf-kimya-250x250-1.jpg"
+  },
+  {
+    "name": "tei tusas motor sanayii as",
+    "categories": [
+      "Enerji",
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-tei-tusas-motor-sanayii-as-250x250-1.jpg"
+  },
+  {
+    "name": "tek is",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-tek-is-250x250-1.jpg"
+  },
+  {
+    "name": "tekay",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-tekay-250x250-1.jpg"
+  },
+  {
+    "name": "tekno seramik",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-tekno-seramik-250x250-1.jpg"
+  },
+  {
+    "name": "teknokem kimya san ve tic as",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-teknokem-kimya-san-ve-tic-as-250x250-1.jpg"
+  },
+  {
+    "name": "teksan",
+    "categories": [
+      "Enerji",
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-teksan-250x250-1.jpg"
+  },
+  {
+    "name": "tel metal soguk haddecilik",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/tel-metal-soguk-haddecilik-250x250-1.png"
+  },
+  {
+    "name": "telmetal",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-telmetal-250x250-1.jpg"
+  },
+  {
+    "name": "tezcan galvaniz",
+    "categories": [
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-tezcan-galvaniz-250x250-1.jpg"
+  },
+  {
+    "name": "the marmara otel",
+    "categories": [
+      "AVM - İş Merkezi - Otel",
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-the-marmara-otel-250x250-1.jpg"
+  },
+  {
+    "name": "thy doco",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-thy-doco-250x250-1.jpg"
+  },
+  {
+    "name": "tisan muhendislik",
+    "categories": [
+      "Plastik"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-tisan-muhendislik-250x250-1.jpg"
+  },
+  {
+    "name": "tofas",
+    "categories": [
+      "Başlıca Referanslar",
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-tofas-250x250-1.jpg"
+  },
+  {
+    "name": "toscelik",
+    "categories": [
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-toscelik-250x250-1.jpg"
+  },
+  {
+    "name": "tozmetal ticaret ve sanayi as",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-tozmetal-ticaret-ve-sanayi-as-250x250-1.jpg"
+  },
+  {
+    "name": "trakya birlik",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-trakya-birlik-250x250-1.jpg"
+  },
+  {
+    "name": "trakya yem ve yag",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-trakya-yem-ve-yag-250x250-1.jpg"
+  },
+  {
+    "name": "tubitak",
+    "categories": [
+      "AVM - İş Merkezi - Otel",
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/tubitak-250x250-1.jpg"
+  },
+  {
+    "name": "tugcelik",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/tugcelik-250x250-1.jpg"
+  },
+  {
+    "name": "turk ytong",
+    "categories": [
+      "Başlıca Referanslar",
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-turk-ytong-250x250-1.jpg"
+  },
+  {
+    "name": "turka otelcilik",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-turka-otelcilik-250x250-1.jpg"
+  },
+  {
+    "name": "turktex",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-turktex-250x250-1.jpg"
+  },
+  {
+    "name": "tursoy otelcilik",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-tursoy-otelcilik-250x250-1.jpg"
+  },
+  {
+    "name": "tuzunler tarim",
+    "categories": [
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-tuzunler-tarim-250x250-1.jpg"
+  },
+  {
+    "name": "ucgen pigment",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/9/ensotek-referanslari-ucgen-pigment-250x250-1.jpg"
+  },
+  {
+    "name": "ufuk isi cam",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/11/ensotek-referanslari-ufuk-isi-cam-250x250-1.jpg"
+  },
+  {
+    "name": "ugur beton",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-ugur-beton-250x250-1.jpg"
+  },
+  {
+    "name": "ugur derin dondurucu",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-ugur-derin-dondurucu-250x250-1.jpg"
+  },
+  {
+    "name": "ugur seluloz kimya",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-ugur-seluloz-kimya-250x250-1.jpg"
+  },
+  {
+    "name": "ugurlu glass oto camlari",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-ugurlu-glass-oto-camlari-250x250-1.jpg"
+  },
+  {
+    "name": "ukinoks mutfak sistemleri",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-ukinoks-mutfak-sistemleri-250x250-1.jpg"
+  },
+  {
+    "name": "ulker biskuvi",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-ulker-biskuvi-250x250-1.jpg"
+  },
+  {
+    "name": "umran boru",
+    "categories": [
+      "Başlıca Referanslar",
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-umran-boru-250x250-1.jpg"
+  },
+  {
+    "name": "unlusoy min",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/unlusoy-min-250x250-1.jpg"
+  },
+  {
+    "name": "unormak min",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/unormak-min-250x250-1.png"
+  },
+  {
+    "name": "usk kimya min",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/17/usk-kimya-min-250x250-1.png"
+  },
+  {
+    "name": "usta gipe iplik",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-usta-gipe-iplik-250x250-1.jpg"
+  },
+  {
+    "name": "ustyapi",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-ustyapi-250x250-1.jpg"
+  },
+  {
+    "name": "vateks",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-vateks-250x250-1.jpg"
+  },
+  {
+    "name": "veskim",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-veskim-250x250-1.jpg"
+  },
+  {
+    "name": "vicat",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-vicat-250x250-1.jpg"
+  },
+  {
+    "name": "vira color masterbatches",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-vira-color-masterbatches-250x250-1.jpg"
+  },
+  {
+    "name": "vit makina",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-vit-makina-250x250-1.jpg"
+  },
+  {
+    "name": "vital kimya",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/17/vital-kimya-250x250-1.png"
+  },
+  {
+    "name": "vivident",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-vivident-250x250-1.jpg"
+  },
+  {
+    "name": "volant",
+    "categories": [
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-volant-250x250-1.jpg"
+  },
+  {
+    "name": "votorantim",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/4/ensotek-referanslari-votorantim-250x250-1.jpg"
+  },
+  {
+    "name": "worldmar avm",
+    "categories": [
+      "AVM - İş Merkezi - Otel"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-worldmar-avm-250x250-1.jpg"
+  },
+  {
+    "name": "yasin kaplan carpet",
+    "categories": [
+      "Tekstil"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-yasin-kaplan-carpet-250x250-1.jpg"
+  },
+  {
+    "name": "yavuz aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-yavuz-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "yavuzlar aluminyum",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-yavuzlar-aluminyum-250x250-1.jpg"
+  },
+  {
+    "name": "yayla agro min",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/15/yayla-agro-min-250x250-1.jpg"
+  },
+  {
+    "name": "yd insaat",
+    "categories": [
+      "Çimento - Maden"
+    ],
+    "logo": "https://ensotek.com/upload/17/yd-insaat-250x250-1.jpg"
+  },
+  {
+    "name": "yigit aku",
+    "categories": [
+      "Başlıca Referanslar",
+      "Enerji"
+    ],
+    "logo": "https://ensotek.com/upload/15/yigit-aku-250x250-1.png"
+  },
+  {
+    "name": "yildiz holding",
+    "categories": [
+      "Başlıca Referanslar"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-yildiz-holding-250x250-1.jpg"
+  },
+  {
+    "name": "yildiz pul",
+    "categories": [
+      "Otomotiv"
+    ],
+    "logo": "https://ensotek.com/upload/3/ensotek-referanslari-yildiz-pul-250x250-1.jpg"
+  },
+  {
+    "name": "yilkar dokum",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/2/ensotek-referanslari-yilkar-dokum-250x250-1.jpg"
+  },
+  {
+    "name": "yonca yag",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-yonca-yag-250x250-1.jpg"
+  },
+  {
+    "name": "yoruk konveyor bant",
+    "categories": [
+      "Mühendislik - Makine"
+    ],
+    "logo": "https://ensotek.com/upload/17/yoruk-konveyor-bant-250x250-1.png"
+  },
+  {
+    "name": "yuce er kalip min",
+    "categories": [
+      "Ambalaj - Kağıt - Yalıtım"
+    ],
+    "logo": "https://ensotek.com/upload/16/yuce-er-kalip-min-250x250-1.jpg"
+  },
+  {
+    "name": "zatel",
+    "categories": [
+      "Metal"
+    ],
+    "logo": "https://ensotek.com/upload/16/zatel-250x250-1.png"
+  },
+  {
+    "name": "zentiva",
+    "categories": [
+      "Başlıca Referanslar",
+      "Kimya"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-zentiva-250x250-1.jpg"
+  },
+  {
+    "name": "zer salca",
+    "categories": [
+      "Başlıca Referanslar",
+      "Gıda & Yağ"
+    ],
+    "logo": "https://ensotek.com/upload/1/ensotek-referanslari-zer-salca-250x250-1.jpg"
+  },
+  {
+    "name": "zodiac",
+    "categories": [
+      "Alüminyum - Tel Çekme"
+    ],
+    "logo": "https://ensotek.com/upload/10/ensotek-referanslari-zodiac-250x250-1.jpg"
+  }
+]
