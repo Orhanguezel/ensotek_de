@@ -33,7 +33,7 @@ export const referencesListQuerySchema = z.object({
   order: z.string().optional(),
   sort: z.enum(['created_at', 'updated_at', 'display_order']).optional(),
   orderDir: z.enum(['asc', 'desc']).optional(),
-  limit: z.coerce.number().int().min(1).max(200).optional(),
+  limit: z.coerce.number().int().min(1).max(2000).optional(),
   offset: z.coerce.number().int().min(0).optional(),
   is_published: boolLike.optional(),
   is_featured: boolLike.optional(),
