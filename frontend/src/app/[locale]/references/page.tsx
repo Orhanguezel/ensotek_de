@@ -42,7 +42,7 @@ export default async function ReferencesPage({ params }: Props) {
     }).catch(() => [] as Reference[]),
     getSubCategories(API_BASE_URL, {
       category_id: YURTICI_CATEGORY_ID,
-      language: locale,
+      locale,
     } as never).catch(() => [] as Array<{ id: string; name: string }>),
   ]);
 
