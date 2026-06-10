@@ -17,8 +17,8 @@ type SiteLogoProps = {
   priority?: boolean;
 };
 
-const DEFAULT_W = 160;
-const DEFAULT_H = 60;
+const DEFAULT_W = 352;
+const DEFAULT_H = 134;
 
 const variantKeyMap: Record<Variant, string> = {
   default: "site_logo",

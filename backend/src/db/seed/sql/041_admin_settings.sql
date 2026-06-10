@@ -43,7 +43,7 @@ VALUES
         'og_url', 'https://ensotek.de/',
         'og_title', 'Ensotek - Industrielle Kühl- und Klimatechnik',
         'og_description', 'Professionelle HVAC-Lösungen für Industrie und Gewerbe. Adiabate Kühlung, Verdunstungskühler und energieeffiziente Klimatechnik.',
-        'og_image', '/logo/ensotek-logo.svg',
+        'og_image', '/logo/ensotek-logo-main.png',
         'twitter_card', 'summary_large_image'
       )
     )

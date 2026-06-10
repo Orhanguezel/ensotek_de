@@ -381,9 +381,9 @@ VALUES
   '*',
   CAST(
     JSON_OBJECT(
-      'url','https://res.cloudinary.com/dbozv7wqd/image/upload/v1770587346/site-media/logo.png',
-      'width',160,
-      'height',60,
+      'url','/logo/ensotek-logo-main.png',
+      'width',352,
+      'height',134,
       'alt','Ensotek Logo'
     ) AS CHAR CHARACTER SET utf8mb4
   ),
@@ -396,9 +396,9 @@ VALUES
   '*',
   CAST(
     JSON_OBJECT(
-      'url','https://res.cloudinary.com/dbozv7wqd/image/upload/v1770587346/site-media/logo.png',
-      'width',160,
-      'height',60,
+      'url','/logo/ensotek-logo-main.png',
+      'width',352,
+      'height',134,
       'alt','Ensotek Logo (Dark)'
     ) AS CHAR CHARACTER SET utf8mb4
   ),
@@ -411,9 +411,9 @@ VALUES
   '*',
   CAST(
     JSON_OBJECT(
-      'url','https://res.cloudinary.com/dbozv7wqd/image/upload/v1770587346/site-media/logo.png',
-      'width',160,
-      'height',60,
+      'url','/logo/ensotek-logo-main.png',
+      'width',352,
+      'height',134,
       'alt','Ensotek Logo (Light)'
     ) AS CHAR CHARACTER SET utf8mb4
   ),
