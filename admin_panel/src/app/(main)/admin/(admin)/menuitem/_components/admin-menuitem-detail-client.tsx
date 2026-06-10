@@ -16,12 +16,12 @@ import { toast } from "sonner";
 
 import { useAdminLocales } from "@/app/(main)/admin/_components/common/useAdminLocales";
 import { useAdminT } from "@/app/(main)/admin/_components/common/useAdminT";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Switch } from "@/components/ui/switch";
+import { Button } from "@ensotek/shared-ui/admin/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@ensotek/shared-ui/admin/ui/card";
+import { Input } from "@ensotek/shared-ui/admin/ui/input";
+import { Label } from "@ensotek/shared-ui/admin/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@ensotek/shared-ui/admin/ui/select";
+import { Switch } from "@ensotek/shared-ui/admin/ui/switch";
 import { resolveAdminApiLocale } from "@/i18n/adminLocale";
 import {
   useCreateMenuItemAdminMutation,
@@ -46,6 +46,10 @@ type FormData = {
   locale: string;
 };
 
+function getObj(value: unknown): Record<string, unknown> | null {
+  return typeof value === "object" && value !== null ? (value as Record<string, unknown>) : null;
+}
+
 export default function AdminMenuItemDetailClient({ id }: { id: string }) {
   const t = useAdminT("admin.menuitem");
   const router = useRouter();
@@ -55,14 +59,17 @@ export default function AdminMenuItemDetailClient({ id }: { id: string }) {
 
   const getErrMsg = React.useCallback(
     (e: unknown): string => {
-      const anyErr = e as any;
-      return anyErr?.data?.error?.message || anyErr?.data?.message || anyErr?.message || t("form.errors.generic");
+      const errObj = getObj(e);
+      const data = getObj(errObj?.data);
+      const nestedError = getObj(data?.error);
+      const message = nestedError?.message ?? data?.message ?? errObj?.message;
+      return typeof message === "string" && message.trim() ? message : t("form.errors.generic");
     },
     [t],
   );
 
   const apiLocale = React.useMemo(() => {
-    return resolveAdminApiLocale(localeOptions as any, defaultLocaleFromDb, "tr");
+    return resolveAdminApiLocale(localeOptions, defaultLocaleFromDb, "de");
   }, [localeOptions, defaultLocaleFromDb]);
 
   // ✅ FIX: Extract items from response
@@ -92,7 +99,7 @@ export default function AdminMenuItemDetailClient({ id }: { id: string }) {
     section_id: "",
     is_active: true,
     display_order: 0,
-    locale: apiLocale || "tr",
+    locale: apiLocale || "de",
   });
 
   // Load existing data
@@ -109,7 +116,7 @@ export default function AdminMenuItemDetailClient({ id }: { id: string }) {
         section_id: item.section_id || "",
         is_active: item.is_active,
         display_order: item.display_order || 0,
-        locale: item.locale || apiLocale || "tr",
+        locale: item.locale || apiLocale || "de",
       });
     }
   }, [isNew, item, apiLocale]);
@@ -347,7 +354,7 @@ export default function AdminMenuItemDetailClient({ id }: { id: string }) {
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    {localeOptions.map((opt: any) => (
+                    {localeOptions.map((opt) => (
                       <SelectItem key={opt.value} value={opt.value}>
                         {opt.label}
                       </SelectItem>

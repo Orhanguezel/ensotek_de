@@ -36,10 +36,12 @@ const toShortLocale = (v: unknown): string =>
     .split("-")[0]
     .trim();
 
+type TranslateFn = (key: string) => string;
+
 const fmtDate = (value: unknown, locale: string) => {
   if (!value) return "-";
   try {
-    const d = new Date(value as any);
+    const d = new Date(String(value));
     if (Number.isNaN(d.getTime())) return String(value);
     return d.toLocaleString(locale);
   } catch {
@@ -47,7 +49,7 @@ const fmtDate = (value: unknown, locale: string) => {
   }
 };
 
-const fmtLocation = (loc: unknown, t: any) => {
+const fmtLocation = (loc: unknown, t: TranslateFn) => {
   const v = safeText(loc).trim().toLowerCase();
   if (v === "header") return t("form.help.locationHeader");
   if (v === "footer") return t("form.help.locationFooter");
@@ -66,7 +68,7 @@ const noWrapEllipsis: React.CSSProperties = {
   textOverflow: "ellipsis",
 };
 
-const getTypeLabel = (raw: unknown, t: any): string => {
+const getTypeLabel = (raw: unknown, t: TranslateFn): string => {
   const v = safeText(raw).trim().toLowerCase();
   if (!v) return "-";
   if (v === "page" || v === "internal_page" || v === "route" || v === "1" || v === "true") return t("list.types.page");
@@ -241,9 +243,9 @@ export const MenuItemList: React.FC<MenuItemListProps> = ({
               {hasData ? (
                 pageRows.map((item, idx) => {
                   const globalIndex = start + idx + 1;
-                  const locale = renderLocale((item as any).locale);
-                  const created = fmtDate((item as any).created_at, dateLocale);
-                  const typeLabel = getTypeLabel((item as any).type, t);
+                  const locale = renderLocale(item.locale);
+                  const created = fmtDate(item.created_at, dateLocale);
+                  const typeLabel = getTypeLabel(item.type, t);
 
                   return (
                     <tr
@@ -258,6 +260,14 @@ export const MenuItemList: React.FC<MenuItemListProps> = ({
                         cursor: onReorder && !busy ? "move" : onEdit ? "pointer" : "default",
                       }}
                       onClick={() => onEdit?.(item)}
+                      onKeyDown={(e) => {
+                        if (!onEdit || busy) return;
+                        if (e.key === "Enter" || e.key === " ") {
+                          e.preventDefault();
+                          onEdit(item);
+                        }
+                      }}
+                      tabIndex={onEdit && !busy ? 0 : undefined}
                     >
                       <td className="small text-nowrap align-middle text-muted">
                         {onReorder && !busy && <span className="me-1">≡</span>}#{globalIndex}
@@ -288,10 +298,14 @@ export const MenuItemList: React.FC<MenuItemListProps> = ({
                       </td>
 
                       {!hideLocationColumn && (
-                        <td className="small text-nowrap align-middle">{fmtLocation((item as any).location, t)}</td>
+                        <td className="small text-nowrap align-middle">{fmtLocation(item.location, t)}</td>
                       )}
 
-                      <td className="text-center align-middle" onClick={(e) => e.stopPropagation()}>
+                      <td
+                        className="text-center align-middle"
+                        onClick={(e) => e.stopPropagation()}
+                        onKeyDown={(e) => e.stopPropagation()}
+                      >
                         <div className="form-check form-switch d-inline-flex m-0">
                           <input
                             className="form-check-input"
@@ -309,7 +323,11 @@ export const MenuItemList: React.FC<MenuItemListProps> = ({
 
                       <td className="small text-nowrap align-middle text-muted">{created}</td>
 
-                      <td className="text-end align-middle" onClick={(e) => e.stopPropagation()}>
+                      <td
+                        className="text-end align-middle"
+                        onClick={(e) => e.stopPropagation()}
+                        onKeyDown={(e) => e.stopPropagation()}
+                      >
                         <div className="btn-group btn-group-sm">
                           {onEdit && (
                             <button
@@ -367,16 +385,28 @@ export const MenuItemList: React.FC<MenuItemListProps> = ({
             <div className="row g-2">
               {pageRows.map((item, idx) => {
                 const globalIndex = start + idx + 1;
-                const locale = renderLocale((item as any).locale);
-                const created = fmtDate((item as any).created_at, dateLocale);
-                const typeLabel = getTypeLabel((item as any).type, t);
+                const locale = renderLocale(item.locale);
+                const created = fmtDate(item.created_at, dateLocale);
+                const typeLabel = getTypeLabel(item.type, t);
 
                 return (
                   <div key={item.id} className="col-12">
                     <div
                       className="rounded-3 border bg-white p-3"
                       style={{ cursor: onEdit ? "pointer" : "default" }}
-                      onClick={() => onEdit?.(item)}
+                      {...(onEdit
+                        ? {
+                            onClick: () => onEdit(item),
+                            onKeyDown: (e: React.KeyboardEvent) => {
+                              if (e.key === "Enter" || e.key === " ") {
+                                e.preventDefault();
+                                onEdit(item);
+                              }
+                            },
+                            role: "button" as const,
+                            tabIndex: 0 as const,
+                          }
+                        : {})}
                     >
                       <div className="d-flex justify-content-between gap-2 align-items-start">
                         <div className="d-flex flex-wrap gap-2 align-items-center">
@@ -387,9 +417,7 @@ export const MenuItemList: React.FC<MenuItemListProps> = ({
                           <span className="badge border bg-light text-dark">{typeLabel}</span>
 
                           {!hideLocationColumn && (
-                            <span className="badge border bg-light text-dark">
-                              {fmtLocation((item as any).location, t)}
-                            </span>
+                            <span className="badge border bg-light text-dark">{fmtLocation(item.location, t)}</span>
                           )}
 
                           <span className="badge border bg-light text-dark">
@@ -397,16 +425,23 @@ export const MenuItemList: React.FC<MenuItemListProps> = ({
                           </span>
                         </div>
 
-                        <div className="form-check form-switch m-0" onClick={(e) => e.stopPropagation()}>
+                        <fieldset
+                          className="form-check form-switch m-0 border-0 p-0"
+                          onClick={(e) => e.stopPropagation()}
+                          onKeyDown={(e) => e.stopPropagation()}
+                        >
                           <input
+                            id={`menuitem-card-active-${item.id}`}
                             className="form-check-input"
                             type="checkbox"
                             checked={!!item.is_active}
                             disabled={busy}
                             onChange={(e) => onToggleActive?.(item, e.target.checked)}
                           />
-                          <label className="form-check-label small">{t("header.active")}</label>
-                        </div>
+                          <label className="form-check-label small" htmlFor={`menuitem-card-active-${item.id}`}>
+                            {t("header.active")}
+                          </label>
+                        </fieldset>
                       </div>
 
                       <div className="mt-2">
@@ -487,7 +522,7 @@ export const MenuItemList: React.FC<MenuItemListProps> = ({
 
               {pages.map((p, i) =>
                 p === "ellipsis" ? (
-                  <PaginationItem key={`e-${i}`}>
+                  <PaginationItem key={`ellipsis-${pages.slice(0, i + 1).filter((x) => x === "ellipsis").length}`}>
                     <PaginationEllipsis />
                   </PaginationItem>
                 ) : (

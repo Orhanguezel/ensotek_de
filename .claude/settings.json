@@ -1,0 +1,48 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(timeout 45 ssh vps-Ensotek ' *)",
+      "Bash(node -e \"const p=require\\('./backend/package.json'\\);console.log\\('deps:',JSON.stringify\\(p.dependencies,null,1\\)\\);console.log\\('workspaces:',p.workspaces\\)\")",
+      "Bash(timeout 60 ssh vps-Ensotek ' *)",
+      "Bash(timeout 40 ssh vps-Ensotek ' *)",
+      "Bash(timeout 35 ssh vps-Ensotek ' *)",
+      "Bash(timeout 30 ssh vps-Ensotek ' *)",
+      "Bash(timeout 300 ssh vps-Ensotek ' *)",
+      "Bash(timeout 420 ssh vps-Ensotek ' *)",
+      "Bash(timeout 90 ssh vps-Ensotek ' *)",
+      "Bash(timeout 60 *)",
+      "Bash(timeout 400 ssh vps-Ensotek ' *)",
+      "Bash(timeout 600 ssh vps-Ensotek ' *)",
+      "Bash(timeout 120 ssh vps-Ensotek ' *)",
+      "Bash(timeout 50 ssh vps-Ensotek ' *)",
+      "Bash(timeout 90 *)",
+      "Bash([ -f \"$d/package.json\" ])",
+      "Bash(node -pe 'require\\('\\\\''./__TRACKED_VAR__/package.json'\\\\''\\).name')",
+      "Bash(timeout 550 ssh vps-Ensotek ' *)",
+      "Bash(timeout 300 *)",
+      "Bash(timeout 200 ssh vps-Ensotek ' *)",
+      "Bash(timeout 110 ssh vps-Ensotek ' *)",
+      "Bash(timeout 110 *)",
+      "Bash(timeout 240 ssh vps-Ensotek ' *)",
+      "Bash(pdfinfo fabrika_sicak_su_geri_kazanim_raporu.pdf)",
+      "Bash(echo \"SSH EXIT: $?\")",
+      "Bash(grep -iE \"\\\\.ts$\")",
+      "Bash(grep -vE \"^--|^$\")",
+      "Bash(grep -nA3 \"INSERT INTO \\\\`sub_categories\\\\`\" src/db/seed/sql/012_sub_categories.sql)",
+      "Bash(grep -nA3 \"INSERT INTO \\\\`sub_category_i18n\\\\`\" src/db/seed/sql/012_sub_categories.sql)",
+      "Bash(curl -s -o /dev/null -w '%{http_code}' --max-time 20 https://ensotek.de/tr/references)",
+      "Bash(echo \"ensotek.de/tr/references → $\\(curl -s -o /dev/null -w '%{http_code}' --max-time 20 https://ensotek.de/tr/references\\)\")",
+      "Bash(curl -s --max-time 25 https://ensotek.de/tr/references)",
+      "Bash(echo \"public referans logo sayısı: $\\(curl -s --max-time 25 https://ensotek.de/tr/references)",
+      "Bash(curl -s --max-time 12 \"https://ensotek.de/api/references/by-slug/bayindir-hastanesi?language=tr\")",
+      "Bash(python3 -c \"import sys,json;d=json.load\\(sys.stdin\\);r=d.get\\('data',d\\);print\\('title:',r.get\\('title'\\),'| locale:',r.get\\('locale_resolved'\\) or r.get\\('locale'\\)\\)\")",
+      "Bash(curl -s --max-time 12 \"https://ensotek.de/api/references/by-slug/bayindir-hastanesi?locale=tr\")"
+    ],
+    "additionalDirectories": [
+      "/home/orhan/Documents/Projeler/Ensotek/packages/shared-config",
+      "/home/orhan/Documents/Projeler/Ensotek/packages/shared-types",
+      "/home/orhan/Documents/Projeler/Ensotek/packages/shared-ui",
+      "/home/orhan/Documents/Projeler/Ensotek/packages"
+    ]
+  }
+}

@@ -53,10 +53,10 @@
 - **Mevcut örnek seed:** 021-024 zaten birkaç referans içeriyor (Enerjisa, Aksa…). Yeni 455 onlarla çakışırsa ON DUPLICATE; farklı UUID alanı kullanılacak.
 - **Logo kalitesi:** 250x250 küçük logolar; yeterli (referans grid). Cloudinary'de otomatik optimize.
 
-## Durum
+## Durum — ✅ TAMAMLANDI (2026-06-04)
 - [x] Çekme + kategorize (542 logo, 455 firma, 13 kategori)
-- [~] Logo indirme (devam)
-- [ ] Cloudinary upload
-- [ ] 7 yeni sub_category
-- [ ] Seed generator + lokal test
-- [ ] Canlı import
+- [x] Logo indirme (542/542)
+- [x] Cloudinary upload (455/455 → uploads/ensotek/referanslar/)
+- [x] 6 yeni sub_category (Alüminyum, Tekstil, AVM/Otel, Mühendislik, Ambalaj, Plastik)
+- [x] Seed generator (025/026/027 tr/en/de) + 2 syntax fix
+- [x] Canlı import (idempotent): references 30→485, i18n 87→1448. Frontend /tr/references gösteriyor.

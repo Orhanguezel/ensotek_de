@@ -60,7 +60,7 @@ export const MenuItemHeader: React.FC<MenuItemHeaderProps> = ({
   onCreateClick,
 }) => {
   const t = useAdminT("admin.menuitem");
-  const effectiveDefaultLocale = useMemo(() => toShortLocale(defaultLocale ?? "tr"), [defaultLocale]);
+  const effectiveDefaultLocale = useMemo(() => toShortLocale(defaultLocale ?? "de"), [defaultLocale]);
 
   const localeSelectDisabled = loading || (!!localesLoading && (locales?.length ?? 0) === 0);
 
@@ -71,8 +71,9 @@ export const MenuItemHeader: React.FC<MenuItemHeaderProps> = ({
     };
 
   const handleInputChange =
-    (field: keyof MenuItemFilters) => (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
-      setField(field as any)(e.target.value as any);
+    <K extends "search" | "active" | "sort" | "order">(field: K) =>
+    (e: React.ChangeEvent<HTMLInputElement | HTMLSelectElement>) => {
+      setField(field)(e.target.value as MenuItemFilters[K]);
     };
 
   const handleLocaleChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
@@ -95,8 +96,11 @@ export const MenuItemHeader: React.FC<MenuItemHeaderProps> = ({
             <div className="row g-2">
               {/* Search */}
               <div className="col-12 col-md-6 col-xl-4">
-                <label className="form-label small mb-1">{t("header.searchLabel")}</label>
+                <label className="form-label small mb-1" htmlFor="menuitem-hdr-search">
+                  {t("header.searchLabel")}
+                </label>
                 <input
+                  id="menuitem-hdr-search"
                   type="text"
                   className="form-control form-control-sm"
                   placeholder={t("header.searchPlaceholder")}
@@ -108,12 +112,15 @@ export const MenuItemHeader: React.FC<MenuItemHeaderProps> = ({
 
               {/* Locale */}
               <div className="col-12 col-md-6 col-xl-3">
-                <label className="form-label small d-flex mb-1 gap-2 align-items-center">
-                  <span>{t("header.localeLabel")}</span>
-                  {localesLoading && <span className="spinner-border spinner-border-sm" role="status" />}
-                </label>
+                <div className="form-label small d-flex mb-1 gap-2 align-items-center">
+                  <label className="mb-0" htmlFor="menuitem-hdr-locale">
+                    {t("header.localeLabel")}
+                  </label>
+                  {localesLoading ? <span className="spinner-border spinner-border-sm" aria-hidden /> : null}
+                </div>
 
                 <select
+                  id="menuitem-hdr-locale"
                   className="form-select form-select-sm"
                   value={toShortLocale(filters.locale)}
                   onChange={handleLocaleChange}
@@ -134,8 +141,11 @@ export const MenuItemHeader: React.FC<MenuItemHeaderProps> = ({
 
               {/* Active */}
               <div className="col-6 col-md-4 col-xl-2">
-                <label className="form-label small mb-1">{t("header.activeLabel")}</label>
+                <label className="form-label small mb-1" htmlFor="menuitem-hdr-active">
+                  {t("header.activeLabel")}
+                </label>
                 <select
+                  id="menuitem-hdr-active"
                   className="form-select form-select-sm"
                   value={filters.active}
                   onChange={handleInputChange("active")}
@@ -149,8 +159,11 @@ export const MenuItemHeader: React.FC<MenuItemHeaderProps> = ({
 
               {/* Sort */}
               <div className="col-6 col-md-4 col-xl-2">
-                <label className="form-label small mb-1">{t("header.sortLabel")}</label>
+                <label className="form-label small mb-1" htmlFor="menuitem-hdr-sort">
+                  {t("header.sortLabel")}
+                </label>
                 <select
+                  id="menuitem-hdr-sort"
                   className="form-select form-select-sm"
                   value={filters.sort}
                   onChange={handleInputChange("sort")}
@@ -164,7 +177,7 @@ export const MenuItemHeader: React.FC<MenuItemHeaderProps> = ({
 
               {/* Order */}
               <div className="col-12 col-md-4 col-xl-1">
-                <label className="form-label small d-block mb-1">{t("header.orderLabel")}</label>
+                <span className="form-label small d-block mb-1">{t("header.orderLabel")}</span>
 
                 <div className="d-none d-md-block">
                   <button
@@ -178,7 +191,11 @@ export const MenuItemHeader: React.FC<MenuItemHeaderProps> = ({
                 </div>
 
                 <div className="d-block d-md-none">
+                  <label className="visually-hidden" htmlFor="menuitem-hdr-order">
+                    {t("header.orderLabel")}
+                  </label>
                   <select
+                    id="menuitem-hdr-order"
                     className="form-select form-select-sm"
                     value={filters.order}
                     onChange={handleInputChange("order")}

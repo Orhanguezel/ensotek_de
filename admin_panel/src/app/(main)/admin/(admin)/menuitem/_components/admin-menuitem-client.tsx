@@ -15,13 +15,13 @@ import { toast } from "sonner";
 
 import { useAdminLocales } from "@/app/(main)/admin/_components/common/useAdminLocales";
 import { useAdminT } from "@/app/(main)/admin/_components/common/useAdminT";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select";
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table";
+import { Badge } from "@ensotek/shared-ui/admin/ui/badge";
+import { Button } from "@ensotek/shared-ui/admin/ui/button";
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@ensotek/shared-ui/admin/ui/card";
+import { Input } from "@ensotek/shared-ui/admin/ui/input";
+import { Label } from "@ensotek/shared-ui/admin/ui/label";
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@ensotek/shared-ui/admin/ui/select";
+import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@ensotek/shared-ui/admin/ui/table";
 import { resolveAdminApiLocale } from "@/i18n/adminLocale";
 import { localeShortClient, localeShortClientOr } from "@/i18n/localeShortClient";
 import {
@@ -44,6 +44,10 @@ type Filters = {
   type: TypeFilter;
   locale: string;
 };
+
+function getObj(value: unknown): Record<string, unknown> | null {
+  return typeof value === "object" && value !== null ? (value as Record<string, unknown>) : null;
+}
 
 function truncate(text: string | null | undefined, max = 40) {
   const t = text || "";
@@ -79,16 +83,19 @@ export default function AdminMenuItemClient() {
 
   const getErrMsg = React.useCallback(
     (e: unknown): string => {
-      const anyErr = e as any;
-      return anyErr?.data?.error?.message || anyErr?.data?.message || anyErr?.message || t("form.errors.generic");
+      const errObj = getObj(e);
+      const data = getObj(errObj?.data);
+      const nestedError = getObj(data?.error);
+      const message = nestedError?.message ?? data?.message ?? errObj?.message;
+      return typeof message === "string" && message.trim() ? message : t("form.errors.generic");
     },
     [t],
   );
 
-  const { localeOptions, defaultLocaleFromDb, loading: localesLoading, fetching: localesFetching } = useAdminLocales();
+  const { localeOptions, defaultLocaleFromDb } = useAdminLocales();
 
   const apiLocale = React.useMemo(() => {
-    return resolveAdminApiLocale(localeOptions as any, defaultLocaleFromDb, "tr");
+    return resolveAdminApiLocale(localeOptions, defaultLocaleFromDb, "de");
   }, [localeOptions, defaultLocaleFromDb]);
 
   const urlLocale = React.useMemo(() => {
@@ -114,9 +121,10 @@ export default function AdminMenuItemClient() {
     setFilters((prev) => {
       const prevLoc = localeShortClient(prev.locale);
       const urlLoc = localeShortClient(urlLocale);
-      const defLoc = localeShortClientOr(apiLocale, "tr");
+      const defLoc = localeShortClientOr(apiLocale, "de");
 
-      const canUse = (l: string) => !!l && (localeOptions ?? []).some((x: any) => localeShortClient(x.value) === l);
+      const canUse = (l: string) =>
+        !!l && (localeOptions ?? []).some((locale) => localeShortClient(locale.value) === l);
 
       if (prevLoc && canUse(prevLoc)) return prev;
 
@@ -124,7 +132,7 @@ export default function AdminMenuItemClient() {
 
       if (defLoc && canUse(defLoc)) return { ...prev, locale: defLoc };
 
-      return { ...prev, locale: localeShortClient((localeOptions as any)?.[0]?.value) || "tr" };
+      return { ...prev, locale: localeShortClient(localeOptions[0]?.value) || "de" };
     });
   }, [localeOptions, urlLocale, apiLocale]);
 
@@ -345,7 +353,7 @@ export default function AdminMenuItemClient() {
                     <SelectValue />
                   </SelectTrigger>
                   <SelectContent>
-                    {localeOptions.map((opt: any) => (
+                    {localeOptions.map((opt) => (
                       <SelectItem key={opt.value} value={opt.value}>
                         {opt.label}
                       </SelectItem>
@@ -359,7 +367,7 @@ export default function AdminMenuItemClient() {
                 <Label htmlFor="location">{t("list.columns.location")}</Label>
                 <Select
                   value={filters.location}
-                  onValueChange={(v) => setFilters((p) => ({ ...p, location: v as any }))}
+                  onValueChange={(v) => setFilters((p) => ({ ...p, location: v as MenuLocation | "all" }))}
                 >
                   <SelectTrigger id="location">
                     <SelectValue />
