@@ -31,6 +31,8 @@ const safeStr = (v: unknown) => (v === null || v === undefined ? "" : String(v).
 const pickUrl = (obj: Record<string, unknown> | null | undefined) =>
   safeStr(obj?.url) || safeStr(obj?.src) || safeStr(obj?.path);
 
+const isLocalAssetUrl = (url: string) => url.startsWith("/") && !url.startsWith("//");
+
 function extractMedia(value: unknown): { url: string; width?: number; height?: number } {
   if (value === null || value === undefined) return { url: "" };
 
@@ -103,6 +105,7 @@ export default function SiteLogo({
 
   const logoSrc = useMemo(() => {
     if (!srcMeta.url) return "";
+    if (isLocalAssetUrl(srcMeta.url)) return srcMeta.url;
     const preferredKey = variantKeyMap[variant];
     const fallbackKeys = ["site_logo", "site_logo_light", "site_logo_dark"];
     const keys = [preferredKey, ...fallbackKeys.filter((k) => k !== preferredKey)];
