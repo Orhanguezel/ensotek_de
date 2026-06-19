@@ -54,12 +54,10 @@ VALUES (
   'aaaa0002-1111-4111-8111-aaaaaaaa0002',
   'bbbb0102-1111-4111-8111-bbbbbbbb0102',
   0.00,
-  'https://res.cloudinary.com/dbozv7wqd/image/upload/v1767321557/products/cover/open-circuit-ctp-single-1-250x250-1.png',
+  'https://ensotek.de/uploads/material/su-sogutma-kulesi-1-250x250-1.jpg',
   NULL,
   JSON_ARRAY(
-    'https://www.ensotek.de/uploads/material/open-circuit-ctp-single-1-250x250-1.jpg',
-    'https://www.ensotek.de/uploads/material/open-circuit-ctp-single-2-250x250-1.jpg',
-    'https://www.ensotek.de/uploads/material/open-circuit-ctp-single-3-250x250-1.jpg'
+    'https://ensotek.de/uploads/material/su-sogutma-kulesi-1-250x250-1.jpg'
   ),
   JSON_ARRAY(),
   1,

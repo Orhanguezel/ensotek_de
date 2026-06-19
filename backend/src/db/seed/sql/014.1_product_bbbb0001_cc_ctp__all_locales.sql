@@ -50,12 +50,10 @@ VALUES (
   'aaaa0003-1111-4111-8111-aaaaaaaa0003',
   'bbbb0201-1111-4111-8111-bbbbbbbb0201',
   0.00,
-  'https://res.cloudinary.com/dbozv7wqd/image/upload/v1767321365/products/cover/closed-circuit-cooling-tower-1-250x250-1.png',
+  'https://ensotek.de/uploads/material/closed-circuit-cooling-towers-250x250-1.jpeg',
   NULL,
   JSON_ARRAY(
-    'https://www.ensotek.de/uploads/material/closed-circuit-cooling-tower-1-250x250-1.jpg',
-    'https://www.ensotek.de/uploads/material/closed-circuit-cooling-tower-2-250x250-1.jpg',
-    'https://www.ensotek.de/uploads/material/closed-circuit-cooling-tower-3-250x250-1.jpg'
+    'https://ensotek.de/uploads/material/closed-circuit-cooling-towers-250x250-1.jpeg'
   ),
   JSON_ARRAY(),
   1,

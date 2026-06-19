@@ -49,12 +49,10 @@ VALUES (
   'aaaa0002-1111-4111-8111-aaaaaaaa0002',
   'bbbb0102-1111-4111-8111-bbbbbbbb0102',
   0.00,
-  'https://res.cloudinary.com/dbozv7wqd/image/upload/v1767321522/products/cover/open-circuit-dctp-double-1-250x250-1.png',
+  'https://ensotek.de/uploads/product/su-sogutma-kulesi-2-li.jpg.jpg',
   NULL,
   JSON_ARRAY(
-    'https://www.ensotek.de/uploads/material/open-circuit-dctp-double-1-250x250-1.jpg',
-    'https://www.ensotek.de/uploads/material/open-circuit-dctp-double-2-250x250-1.jpg',
-    'https://www.ensotek.de/uploads/material/open-circuit-dctp-double-3-250x250-1.jpg'
+    'https://ensotek.de/uploads/product/su-sogutma-kulesi-2-li.jpg.jpg'
   ),
   JSON_ARRAY(),
   1,
