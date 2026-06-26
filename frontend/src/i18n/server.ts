@@ -65,7 +65,8 @@ type ContentMeta = {
 
 async function fetchContent(path: string, locale: string): Promise<ContentMeta> {
   try {
-    const url = `${API_BASE_URL}/${path}?locale=${encodeURIComponent(locale)}`;
+    const sep = path.includes('?') ? '&' : '?';
+    const url = `${API_BASE_URL}/${path}${sep}locale=${encodeURIComponent(locale)}`;
     const res = await fetch(url, { next: { revalidate: 300 } });
     if (!res.ok) return null;
     const data = await res.json();
@@ -83,8 +84,15 @@ export async function fetchServiceBySlug(slug: string, locale: string): Promise<
   return fetchContent(`services/by-slug/${encodeURIComponent(slug)}`, locale);
 }
 
-export async function fetchProductBySlug(slug: string, locale: string): Promise<ContentMeta> {
-  return fetchContent(`products/by-slug/${encodeURIComponent(slug)}`, locale);
+export async function fetchProductBySlug(
+  slug: string,
+  locale: string,
+  itemType: 'product' | 'sparepart' = 'product',
+): Promise<ContentMeta> {
+  return fetchContent(
+    `products/by-slug/${encodeURIComponent(slug)}?item_type=${encodeURIComponent(itemType)}`,
+    locale,
+  );
 }
 
 export async function fetchLibraryBySlug(slug: string, locale: string): Promise<ContentMeta> {

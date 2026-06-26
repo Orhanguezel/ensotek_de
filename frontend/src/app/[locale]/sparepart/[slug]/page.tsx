@@ -15,7 +15,7 @@ interface Props {
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { slug, locale } = await params;
-  const item = await fetchProductBySlug(slug, locale ?? "tr");
+  const item = await fetchProductBySlug(slug, locale ?? "tr", "sparepart");
   if (!item) return {};
   return {
     title: item.meta_title || item.title || item.name,
@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 
 const SparepartDetailPage = async ({ params }: Props) => {
   const { slug, locale } = await params;
-  const item = await fetchProductBySlug(slug, locale ?? "tr");
+  const item = await fetchProductBySlug(slug, locale ?? "tr", "sparepart");
   if (!item) notFound();
 
   return (
