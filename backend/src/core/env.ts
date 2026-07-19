@@ -3,6 +3,17 @@
 // =============================================================
 import 'dotenv/config';
 
+/**
+ * Auth/imza secret'leri icin fail-closed okuma. Fallback YASAK: env yoksa
+ * uygulama acilmaz. Bkz. CLAUDE.md "SECRET FALLBACK YASAK".
+ */
+function requireEnv(key: string): string {
+  const v = process.env[key];
+  if (!v) throw new Error(`Missing env var: ${key}`);
+  return v;
+}
+
+
 const toInt = (v: string | undefined, d: number) => {
   const n = v ? parseInt(v, 10) : NaN;
   return Number.isFinite(n) ? n : d;
@@ -66,8 +77,8 @@ export const env = {
     name: process.env.DB_NAME || 'app',
   },
 
-  JWT_SECRET: process.env.JWT_SECRET || 'change-me',
-  COOKIE_SECRET: process.env.COOKIE_SECRET || 'cookie-secret',
+  JWT_SECRET: requireEnv('JWT_SECRET'),
+  COOKIE_SECRET: requireEnv('COOKIE_SECRET'),
 
   CORS_ORIGIN,
 
