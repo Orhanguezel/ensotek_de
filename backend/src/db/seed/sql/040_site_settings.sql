@@ -322,13 +322,23 @@ ON DUPLICATE KEY UPDATE
 -- =============================================================
 INSERT INTO `site_settings` (`id`, `key`, `locale`, `value`, `created_at`, `updated_at`)
 VALUES
-(UUID(), 'smtp_host',       '*', 'smtp.example.com',        NOW(3), NOW(3)),
-(UUID(), 'smtp_port',       '*', '465',                     NOW(3), NOW(3)),
-(UUID(), 'smtp_username',   '*', 'no-reply@ensotek.com.tr', NOW(3), NOW(3)),
-(UUID(), 'smtp_password',   '*', 'change-me-in-admin',      NOW(3), NOW(3)),
-(UUID(), 'smtp_from_email', '*', 'no-reply@ensotek.com.tr', NOW(3), NOW(3)),
-(UUID(), 'smtp_from_name',  '*', 'Ensotek',                 NOW(3), NOW(3)),
-(UUID(), 'smtp_ssl',        '*', 'true',                    NOW(3), NOW(3))
+(UUID(), 'smtp_host',       '*', 'smtp.gmail.com',    NOW(3), NOW(3)),
+(UUID(), 'smtp_port',       '*', '465',               NOW(3), NOW(3)),
+(UUID(), 'smtp_username',   '*', 'no-reply@ensotek.de', NOW(3), NOW(3)),
+(UUID(), 'smtp_password',   '*', 'change-me-in-admin', NOW(3), NOW(3)),
+(UUID(), 'smtp_from_email', '*', 'no-reply@ensotek.de', NOW(3), NOW(3)),
+(UUID(), 'smtp_from_name',  '*', 'Ensotek',           NOW(3), NOW(3)),
+(UUID(), 'smtp_ssl',        '*', 'true',              NOW(3), NOW(3))
+ON DUPLICATE KEY UPDATE
+  `value`      = VALUES(`value`),
+  `updated_at` = VALUES(`updated_at`);
+
+-- =============================================================
+-- GLOBAL: Admin bildirim alıcısı — yeni sipariş/teklif/iletişim (locale='*')
+-- =============================================================
+INSERT INTO `site_settings` (`id`, `key`, `locale`, `value`, `created_at`, `updated_at`)
+VALUES
+(UUID(), 'admin_notification_email', '*', 'orhanguzell@gmail.com', NOW(3), NOW(3))
 ON DUPLICATE KEY UPDATE
   `value`      = VALUES(`value`),
   `updated_at` = VALUES(`updated_at`);
