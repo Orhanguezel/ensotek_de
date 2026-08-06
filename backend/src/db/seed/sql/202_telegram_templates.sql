@@ -37,7 +37,15 @@ VALUES
     UUID(),
     'telegram_template_new_catalog_request',
     '*',
-    '📚 *Yeni Katalog Talebi*\\n\\n👤 Ad Soyad: {{customer_name}}\\n📧 E-posta: {{customer_email}}\\n📱 Telefon: {{customer_phone}}\\n🏢 Firma: {{company_name}}\\n💬 Mesaj: {{message}}\\n📅 Tarih: {{created_at}}',
+    '🌐 {{site_name}}
+📚 *Yeni Katalog Talebi*
+
+👤 Ad Soyad: {{customer_name}}
+📧 E-posta: {{customer_email}}
+📱 Telefon: {{customer_phone}}
+🏢 Firma: {{company_name}}
+💬 Mesaj: {{message}}
+📅 Tarih: {{created_at}}',
     NOW(),
     NOW()
   ),
@@ -45,7 +53,16 @@ VALUES
     UUID(),
     'telegram_template_new_offer_request',
     '*',
-    '💰 *Yeni Teklif Talebi*\\n\\n👤 Ad Soyad: {{customer_name}}\\n📧 E-posta: {{customer_email}}\\n📱 Telefon: {{customer_phone}}\\n🏢 Firma: {{company_name}}\\n🔧 Ürün/Hizmet: {{product_service}}\\n💬 Detay: {{message}}\\n📅 Tarih: {{created_at}}',
+    '🌐 {{site_name}}
+💰 *Yeni Teklif Talebi*
+
+👤 Ad Soyad: {{customer_name}}
+📧 E-posta: {{customer_email}}
+📱 Telefon: {{customer_phone}}
+🏢 Firma: {{company_name}}
+🔧 Ürün/Hizmet: {{product_service}}
+💬 Detay: {{message}}
+📅 Tarih: {{created_at}}',
     NOW(),
     NOW()
   ),
@@ -53,7 +70,16 @@ VALUES
     UUID(),
     'telegram_template_new_contact',
     '*',
-    '📞 *Yeni İletişim Talebi*\\n\\n👤 Ad Soyad: {{customer_name}}\\n📧 E-posta: {{customer_email}}\\n📱 Telefon: {{customer_phone}}\\n🏢 Firma: {{company_name}}\\n📝 Konu: {{subject}}\\n💬 Mesaj: {{message}}\\n📅 Tarih: {{created_at}}',
+    '🌐 {{site_name}}
+📞 *Yeni İletişim Talebi*
+
+👤 Ad Soyad: {{customer_name}}
+📧 E-posta: {{customer_email}}
+📱 Telefon: {{customer_phone}}
+🏢 Firma: {{company_name}}
+📝 Konu: {{subject}}
+💬 Mesaj: {{message}}
+📅 Tarih: {{created_at}}',
     NOW(),
     NOW()
   ),
